@@ -1,0 +1,801 @@
+2019-01-24 19:22:53,325 - INFO - ------------- { start logging ROBOT } -------------
+2019-01-24 19:22:53,328 - INFO - ----------[ Construction de myRobot ]------------------
+2019-01-24 19:22:53,330 - INFO - Construction de myRobot
+2019-01-24 19:22:53,331 - INFO - Démarrage de la création du "Servo pour rotation du poignet (WRIST_rotate)"
+2019-01-24 19:22:53,337 - INFO - Création du "Servo pour rotation du poignet (WRIST_rotate)" terminée
+2019-01-24 19:22:53,338 - DEBUG - Servo pour rotation du poignet (WRIST_rotate) créé avec pulse min : 550  pulse max : 2330 sur le canal 5 du PCA9685 avec fréquence 50.
+2019-01-24 19:22:53,339 - INFO - Démarrage de la création du "Servo pour flexion du poignet (WRIST_flex)"
+2019-01-24 19:22:53,340 - INFO - Création du "Servo pour flexion du poignet (WRIST_flex)" terminée
+2019-01-24 19:22:53,341 - DEBUG - Servo pour flexion du poignet (WRIST_flex) créé avec pulse min : 550  pulse max : 2330 sur le canal 4 du PCA9685 avec fréquence 50.
+2019-01-24 19:22:53,342 - INFO - Démarrage de la création du "Servo pour pince (GRIP)"
+2019-01-24 19:22:53,343 - INFO - Création du "Servo pour pince (GRIP)" terminée
+2019-01-24 19:22:53,343 - DEBUG - Servo pour pince (GRIP) créé avec pulse min : 550  pulse max : 2330 sur le canal 6 du PCA9685 avec fréquence 50.
+2019-01-24 19:22:53,346 - INFO - Construction du coude de myRobot
+2019-01-24 19:22:53,346 - INFO - Démarrage de la création du "Servo pour flexion du coude (ELBOW_flex)"
+2019-01-24 19:22:53,347 - INFO - Création du "Servo pour flexion du coude (ELBOW_flex)" terminée
+2019-01-24 19:22:53,348 - DEBUG - Servo pour flexion du coude (ELBOW_flex) créé avec pulse min : 550  pulse max : 2330 sur le canal 3 du PCA9685 avec fréquence 50.
+2019-01-24 19:22:53,349 - INFO - Démarrage de la construction de l'épaule de myRobot
+2019-01-24 19:22:53,349 - INFO - Démarrage de la création du "Servo pour flexion de l'épaule (SHOULDER_flex)"
+2019-01-24 19:22:53,350 - INFO - Création du "Servo pour flexion de l'épaule (SHOULDER_flex)" terminée
+2019-01-24 19:22:53,351 - DEBUG - Servo pour flexion de l'épaule (SHOULDER_flex) créé avec pulse min : 550  pulse max : 2330 sur le canal 2 du PCA9685 avec fréquence 50.
+2019-01-24 19:22:53,351 - INFO - Démarrage de la création du "Servo pour rotation de l'épaule (SHOULDER_rotate)"
+2019-01-24 19:22:53,352 - INFO - Création du "Servo pour rotation de l'épaule (SHOULDER_rotate)" terminée
+2019-01-24 19:22:53,353 - DEBUG - Servo pour rotation de l'épaule (SHOULDER_rotate) créé avec pulse min : 550  pulse max : 2330 sur le canal 1 du PCA9685 avec fréquence 50.
+2019-01-24 19:22:53,353 - INFO - Construction épaule de myRobot terminée
+2019-01-24 19:22:53,354 - INFO - ------[ Fin de construction de myRobot ]---------------
+2019-01-24 19:22:55,052 - INFO - Flexion du coude de "myRobot" à un angle de 88 degrés
+2019-01-24 19:22:55,053 - DEBUG - Déplacement du Servo pour flexion du coude (ELBOW_flex) avec une longueur de pulse de 1420
+2019-01-24 19:22:55,054 - INFO - Déplacement du Servo pour flexion du coude (ELBOW_flex) à un angle de 88 (°)
+2019-01-24 19:22:55,055 - INFO - Flexion du coude (ABS_Y) de 88
+2019-01-24 19:22:55,059 - INFO - Flexion du coude de "myRobot" à un angle de 85 degrés
+2019-01-24 19:22:55,060 - DEBUG - Déplacement du Servo pour flexion du coude (ELBOW_flex) avec une longueur de pulse de 1390
+2019-01-24 19:22:55,061 - INFO - Déplacement du Servo pour flexion du coude (ELBOW_flex) à un angle de 85 (°)
+2019-01-24 19:22:55,061 - INFO - Flexion du coude (ABS_Y) de 85
+2019-01-24 19:22:55,065 - INFO - Flexion du coude de "myRobot" à un angle de 84 degrés
+2019-01-24 19:22:55,067 - DEBUG - Déplacement du Servo pour flexion du coude (ELBOW_flex) avec une longueur de pulse de 1380
+2019-01-24 19:22:55,067 - INFO - Déplacement du Servo pour flexion du coude (ELBOW_flex) à un angle de 84 (°)
+2019-01-24 19:22:55,068 - INFO - Flexion du coude (ABS_Y) de 84
+2019-01-24 19:22:55,072 - INFO - Flexion du coude de "myRobot" à un angle de 83 degrés
+2019-01-24 19:22:55,073 - DEBUG - Déplacement du Servo pour flexion du coude (ELBOW_flex) avec une longueur de pulse de 1370
+2019-01-24 19:22:55,075 - INFO - Déplacement du Servo pour flexion du coude (ELBOW_flex) à un angle de 83 (°)
+2019-01-24 19:22:55,075 - INFO - Flexion du coude (ABS_Y) de 83
+2019-01-24 19:22:55,080 - INFO - Flexion du coude de "myRobot" à un angle de 82 degrés
+2019-01-24 19:22:55,081 - DEBUG - Déplacement du Servo pour flexion du coude (ELBOW_flex) avec une longueur de pulse de 1360
+2019-01-24 19:22:55,082 - INFO - Déplacement du Servo pour flexion du coude (ELBOW_flex) à un angle de 82 (°)
+2019-01-24 19:22:55,083 - INFO - Flexion du coude (ABS_Y) de 82
+2019-01-24 19:22:55,087 - INFO - Flexion du coude de "myRobot" à un angle de 81 degrés
+2019-01-24 19:22:55,088 - DEBUG - Déplacement du Servo pour flexion du coude (ELBOW_flex) avec une longueur de pulse de 1351
+2019-01-24 19:22:55,089 - INFO - Déplacement du Servo pour flexion du coude (ELBOW_flex) à un angle de 81 (°)
+2019-01-24 19:22:55,090 - INFO - Flexion du coude (ABS_Y) de 81
+2019-01-24 19:22:55,096 - INFO - Flexion du coude de "myRobot" à un angle de 76 degrés
+2019-01-24 19:22:55,097 - DEBUG - Déplacement du Servo pour flexion du coude (ELBOW_flex) avec une longueur de pulse de 1301
+2019-01-24 19:22:55,098 - INFO - Déplacement du Servo pour flexion du coude (ELBOW_flex) à un angle de 76 (°)
+2019-01-24 19:22:55,099 - INFO - Flexion du coude (ABS_Y) de 76
+2019-01-24 19:22:55,103 - INFO - Flexion du coude de "myRobot" à un angle de 71 degrés
+2019-01-24 19:22:55,104 - DEBUG - Déplacement du Servo pour flexion du coude (ELBOW_flex) avec une longueur de pulse de 1252
+2019-01-24 19:22:55,105 - INFO - Déplacement du Servo pour flexion du coude (ELBOW_flex) à un angle de 71 (°)
+2019-01-24 19:22:55,106 - INFO - Flexion du coude (ABS_Y) de 71
+2019-01-24 19:22:55,112 - INFO - Flexion du coude de "myRobot" à un angle de 70 degrés
+2019-01-24 19:22:55,113 - DEBUG - Déplacement du Servo pour flexion du coude (ELBOW_flex) avec une longueur de pulse de 1242
+2019-01-24 19:22:55,115 - INFO - Déplacement du Servo pour flexion du coude (ELBOW_flex) à un angle de 70 (°)
+2019-01-24 19:22:55,116 - INFO - Flexion du coude (ABS_Y) de 70
+2019-01-24 19:22:55,153 - INFO - Flexion du coude de "myRobot" à un angle de 73 degrés
+2019-01-24 19:22:55,154 - DEBUG - Déplacement du Servo pour flexion du coude (ELBOW_flex) avec une longueur de pulse de 1271
+2019-01-24 19:22:55,155 - INFO - Déplacement du Servo pour flexion du coude (ELBOW_flex) à un angle de 73 (°)
+2019-01-24 19:22:55,157 - INFO - Flexion du coude (ABS_Y) de 73
+2019-01-24 19:22:55,162 - INFO - Flexion du coude de "myRobot" à un angle de 78 degrés
+2019-01-24 19:22:55,164 - DEBUG - Déplacement du Servo pour flexion du coude (ELBOW_flex) avec une longueur de pulse de 1321
+2019-01-24 19:22:55,165 - INFO - Déplacement du Servo pour flexion du coude (ELBOW_flex) à un angle de 78 (°)
+2019-01-24 19:22:55,167 - INFO - Flexion du coude (ABS_Y) de 78
+2019-01-24 19:22:55,172 - INFO - Flexion du coude de "myRobot" à un angle de 83 degrés
+2019-01-24 19:22:55,174 - DEBUG - Déplacement du Servo pour flexion du coude (ELBOW_flex) avec une longueur de pulse de 1370
+2019-01-24 19:22:55,175 - INFO - Déplacement du Servo pour flexion du coude (ELBOW_flex) à un angle de 83 (°)
+2019-01-24 19:22:55,176 - INFO - Flexion du coude (ABS_Y) de 83
+2019-01-24 19:22:55,182 - INFO - Flexion du coude de "myRobot" à un angle de 85 degrés
+2019-01-24 19:22:55,183 - DEBUG - Déplacement du Servo pour flexion du coude (ELBOW_flex) avec une longueur de pulse de 1390
+2019-01-24 19:22:55,184 - INFO - Déplacement du Servo pour flexion du coude (ELBOW_flex) à un angle de 85 (°)
+2019-01-24 19:22:55,185 - INFO - Flexion du coude (ABS_Y) de 85
+2019-01-24 19:22:56,002 - INFO - Flexion du coude de "myRobot" à un angle de 86 degrés
+2019-01-24 19:22:56,004 - DEBUG - Déplacement du Servo pour flexion du coude (ELBOW_flex) avec une longueur de pulse de 1400
+2019-01-24 19:22:56,006 - INFO - Déplacement du Servo pour flexion du coude (ELBOW_flex) à un angle de 86 (°)
+2019-01-24 19:22:56,008 - INFO - Flexion du coude (ABS_Y) de 86
+2019-01-24 19:22:56,013 - INFO - Flexion du coude de "myRobot" à un angle de 87 degrés
+2019-01-24 19:22:56,015 - DEBUG - Déplacement du Servo pour flexion du coude (ELBOW_flex) avec une longueur de pulse de 1410
+2019-01-24 19:22:56,016 - INFO - Déplacement du Servo pour flexion du coude (ELBOW_flex) à un angle de 87 (°)
+2019-01-24 19:22:56,017 - INFO - Flexion du coude (ABS_Y) de 87
+2019-01-24 19:22:56,023 - INFO - Flexion du coude de "myRobot" à un angle de 90 degrés
+2019-01-24 19:22:56,024 - DEBUG - Déplacement du Servo pour flexion du coude (ELBOW_flex) avec une longueur de pulse de 1440
+2019-01-24 19:22:56,025 - INFO - Déplacement du Servo pour flexion du coude (ELBOW_flex) à un angle de 90 (°)
+2019-01-24 19:22:56,027 - INFO - Flexion du coude (ABS_Y) de 90
+2019-01-24 19:22:56,032 - INFO - Flexion du coude de "myRobot" à un angle de 92 degrés
+2019-01-24 19:22:56,033 - DEBUG - Déplacement du Servo pour flexion du coude (ELBOW_flex) avec une longueur de pulse de 1459
+2019-01-24 19:22:56,035 - INFO - Déplacement du Servo pour flexion du coude (ELBOW_flex) à un angle de 92 (°)
+2019-01-24 19:22:56,036 - INFO - Flexion du coude (ABS_Y) de 92
+2019-01-24 19:22:56,041 - INFO - Flexion du coude de "myRobot" à un angle de 93 degrés
+2019-01-24 19:22:56,043 - DEBUG - Déplacement du Servo pour flexion du coude (ELBOW_flex) avec une longueur de pulse de 1469
+2019-01-24 19:22:56,044 - INFO - Déplacement du Servo pour flexion du coude (ELBOW_flex) à un angle de 93 (°)
+2019-01-24 19:22:56,045 - INFO - Flexion du coude (ABS_Y) de 93
+2019-01-24 19:22:56,051 - INFO - Rotation du "Servo pour rotation du poignet (WRIST_rotate)" a un angle de 88 degrés
+2019-01-24 19:22:56,053 - DEBUG - Déplacement du Servo pour rotation du poignet (WRIST_rotate) avec une longueur de pulse de 1420
+2019-01-24 19:22:56,054 - INFO - Déplacement du Servo pour rotation du poignet (WRIST_rotate) à un angle de 88 (°)
+2019-01-24 19:22:56,055 - INFO - Rotation du poignet (ABS_X) de 88
+2019-01-24 19:22:56,060 - INFO - Flexion du coude de "myRobot" à un angle de 95 degrés
+2019-01-24 19:22:56,062 - DEBUG - Déplacement du Servo pour flexion du coude (ELBOW_flex) avec une longueur de pulse de 1489
+2019-01-24 19:22:56,063 - INFO - Déplacement du Servo pour flexion du coude (ELBOW_flex) à un angle de 95 (°)
+2019-01-24 19:22:56,064 - INFO - Flexion du coude (ABS_Y) de 95
+2019-01-24 19:22:56,070 - INFO - Rotation du "Servo pour rotation du poignet (WRIST_rotate)" a un angle de 83 degrés
+2019-01-24 19:22:56,071 - DEBUG - Déplacement du Servo pour rotation du poignet (WRIST_rotate) avec une longueur de pulse de 1370
+2019-01-24 19:22:56,073 - INFO - Déplacement du Servo pour rotation du poignet (WRIST_rotate) à un angle de 83 (°)
+2019-01-24 19:22:56,074 - INFO - Rotation du poignet (ABS_X) de 83
+2019-01-24 19:22:56,080 - INFO - Flexion du coude de "myRobot" à un angle de 104 degrés
+2019-01-24 19:22:56,081 - DEBUG - Déplacement du Servo pour flexion du coude (ELBOW_flex) avec une longueur de pulse de 1578
+2019-01-24 19:22:56,082 - INFO - Déplacement du Servo pour flexion du coude (ELBOW_flex) à un angle de 104 (°)
+2019-01-24 19:22:56,083 - INFO - Flexion du coude (ABS_Y) de 104
+2019-01-24 19:22:56,089 - INFO - Rotation du "Servo pour rotation du poignet (WRIST_rotate)" a un angle de 80 degrés
+2019-01-24 19:22:56,091 - DEBUG - Déplacement du Servo pour rotation du poignet (WRIST_rotate) avec une longueur de pulse de 1341
+2019-01-24 19:22:56,092 - INFO - Déplacement du Servo pour rotation du poignet (WRIST_rotate) à un angle de 80 (°)
+2019-01-24 19:22:56,093 - INFO - Rotation du poignet (ABS_X) de 80
+2019-01-24 19:22:56,099 - INFO - Flexion du coude de "myRobot" à un angle de 112 degrés
+2019-01-24 19:22:56,100 - DEBUG - Déplacement du Servo pour flexion du coude (ELBOW_flex) avec une longueur de pulse de 1657
+2019-01-24 19:22:56,101 - INFO - Déplacement du Servo pour flexion du coude (ELBOW_flex) à un angle de 112 (°)
+2019-01-24 19:22:56,103 - INFO - Flexion du coude (ABS_Y) de 112
+2019-01-24 19:22:56,109 - INFO - Rotation du "Servo pour rotation du poignet (WRIST_rotate)" a un angle de 79 degrés
+2019-01-24 19:22:56,111 - DEBUG - Déplacement du Servo pour rotation du poignet (WRIST_rotate) avec une longueur de pulse de 1331
+2019-01-24 19:22:56,112 - INFO - Déplacement du Servo pour rotation du poignet (WRIST_rotate) à un angle de 79 (°)
+2019-01-24 19:22:56,113 - INFO - Rotation du poignet (ABS_X) de 79
+2019-01-24 19:22:56,119 - INFO - Flexion du coude de "myRobot" à un angle de 124 degrés
+2019-01-24 19:22:56,120 - DEBUG - Déplacement du Servo pour flexion du coude (ELBOW_flex) avec une longueur de pulse de 1776
+2019-01-24 19:22:56,121 - INFO - Déplacement du Servo pour flexion du coude (ELBOW_flex) à un angle de 124 (°)
+2019-01-24 19:22:56,122 - INFO - Flexion du coude (ABS_Y) de 124
+2019-01-24 19:22:56,126 - INFO - Rotation du "Servo pour rotation du poignet (WRIST_rotate)" a un angle de 77 degrés
+2019-01-24 19:22:56,127 - DEBUG - Déplacement du Servo pour rotation du poignet (WRIST_rotate) avec une longueur de pulse de 1311
+2019-01-24 19:22:56,128 - INFO - Déplacement du Servo pour rotation du poignet (WRIST_rotate) à un angle de 77 (°)
+2019-01-24 19:22:56,129 - INFO - Rotation du poignet (ABS_X) de 77
+2019-01-24 19:22:56,133 - INFO - Flexion du coude de "myRobot" à un angle de 137 degrés
+2019-01-24 19:22:56,134 - DEBUG - Déplacement du Servo pour flexion du coude (ELBOW_flex) avec une longueur de pulse de 1904
+2019-01-24 19:22:56,135 - INFO - Déplacement du Servo pour flexion du coude (ELBOW_flex) à un angle de 137 (°)
+2019-01-24 19:22:56,136 - INFO - Flexion du coude (ABS_Y) de 137
+2019-01-24 19:22:56,140 - INFO - Rotation du "Servo pour rotation du poignet (WRIST_rotate)" a un angle de 76 degrés
+2019-01-24 19:22:56,141 - DEBUG - Déplacement du Servo pour rotation du poignet (WRIST_rotate) avec une longueur de pulse de 1301
+2019-01-24 19:22:56,142 - INFO - Déplacement du Servo pour rotation du poignet (WRIST_rotate) à un angle de 76 (°)
+2019-01-24 19:22:56,143 - INFO - Rotation du poignet (ABS_X) de 76
+2019-01-24 19:22:56,147 - INFO - Flexion du coude de "myRobot" à un angle de 155 degrés
+2019-01-24 19:22:56,148 - DEBUG - Déplacement du Servo pour flexion du coude (ELBOW_flex) avec une longueur de pulse de 2082
+2019-01-24 19:22:56,149 - INFO - Déplacement du Servo pour flexion du coude (ELBOW_flex) à un angle de 155 (°)
+2019-01-24 19:22:56,150 - INFO - Flexion du coude (ABS_Y) de 155
+2019-01-24 19:22:56,154 - INFO - Flexion du coude de "myRobot" à un angle de 166 degrés
+2019-01-24 19:22:56,155 - DEBUG - Déplacement du Servo pour flexion du coude (ELBOW_flex) avec une longueur de pulse de 2191
+2019-01-24 19:22:56,155 - INFO - Déplacement du Servo pour flexion du coude (ELBOW_flex) à un angle de 166 (°)
+2019-01-24 19:22:56,156 - INFO - Flexion du coude (ABS_Y) de 166
+2019-01-24 19:22:56,161 - INFO - Flexion du coude de "myRobot" à un angle de 176 degrés
+2019-01-24 19:22:56,162 - DEBUG - Déplacement du Servo pour flexion du coude (ELBOW_flex) avec une longueur de pulse de 2290
+2019-01-24 19:22:56,163 - INFO - Déplacement du Servo pour flexion du coude (ELBOW_flex) à un angle de 176 (°)
+2019-01-24 19:22:56,164 - INFO - Flexion du coude (ABS_Y) de 176
+2019-01-24 19:22:56,168 - INFO - Rotation du "Servo pour rotation du poignet (WRIST_rotate)" a un angle de 75 degrés
+2019-01-24 19:22:56,169 - DEBUG - Déplacement du Servo pour rotation du poignet (WRIST_rotate) avec une longueur de pulse de 1291
+2019-01-24 19:22:56,170 - INFO - Déplacement du Servo pour rotation du poignet (WRIST_rotate) à un angle de 75 (°)
+2019-01-24 19:22:56,171 - INFO - Rotation du poignet (ABS_X) de 75
+2019-01-24 19:22:56,175 - INFO - Flexion du coude de "myRobot" à un angle de 180 degrés
+2019-01-24 19:22:56,176 - DEBUG - Déplacement du Servo pour flexion du coude (ELBOW_flex) avec une longueur de pulse de 2330
+2019-01-24 19:22:56,177 - INFO - Déplacement du Servo pour flexion du coude (ELBOW_flex) à un angle de 180 (°)
+2019-01-24 19:22:56,177 - INFO - Flexion du coude (ABS_Y) de 180
+2019-01-24 19:22:56,182 - INFO - Rotation du "Servo pour rotation du poignet (WRIST_rotate)" a un angle de 74 degrés
+2019-01-24 19:22:56,183 - DEBUG - Déplacement du Servo pour rotation du poignet (WRIST_rotate) avec une longueur de pulse de 1281
+2019-01-24 19:22:56,184 - INFO - Déplacement du Servo pour rotation du poignet (WRIST_rotate) à un angle de 74 (°)
+2019-01-24 19:22:56,184 - INFO - Rotation du poignet (ABS_X) de 74
+2019-01-24 19:22:56,189 - INFO - Flexion du coude de "myRobot" à un angle de 178 degrés
+2019-01-24 19:22:56,190 - DEBUG - Déplacement du Servo pour flexion du coude (ELBOW_flex) avec une longueur de pulse de 2310
+2019-01-24 19:22:56,191 - INFO - Déplacement du Servo pour flexion du coude (ELBOW_flex) à un angle de 178 (°)
+2019-01-24 19:22:56,191 - INFO - Flexion du coude (ABS_Y) de 178
+2019-01-24 19:22:56,196 - INFO - Flexion du coude de "myRobot" à un angle de 172 degrés
+2019-01-24 19:22:56,197 - DEBUG - Déplacement du Servo pour flexion du coude (ELBOW_flex) avec une longueur de pulse de 2250
+2019-01-24 19:22:56,198 - INFO - Déplacement du Servo pour flexion du coude (ELBOW_flex) à un angle de 172 (°)
+2019-01-24 19:22:56,199 - INFO - Flexion du coude (ABS_Y) de 172
+2019-01-24 19:22:56,203 - INFO - Rotation du "Servo pour rotation du poignet (WRIST_rotate)" a un angle de 78 degrés
+2019-01-24 19:22:56,204 - DEBUG - Déplacement du Servo pour rotation du poignet (WRIST_rotate) avec une longueur de pulse de 1321
+2019-01-24 19:22:56,205 - INFO - Déplacement du Servo pour rotation du poignet (WRIST_rotate) à un angle de 78 (°)
+2019-01-24 19:22:56,206 - INFO - Rotation du poignet (ABS_X) de 78
+2019-01-24 19:22:56,210 - INFO - Flexion du coude de "myRobot" à un angle de 150 degrés
+2019-01-24 19:22:56,211 - DEBUG - Déplacement du Servo pour flexion du coude (ELBOW_flex) avec une longueur de pulse de 2033
+2019-01-24 19:22:56,212 - INFO - Déplacement du Servo pour flexion du coude (ELBOW_flex) à un angle de 150 (°)
+2019-01-24 19:22:56,213 - INFO - Flexion du coude (ABS_Y) de 150
+2019-01-24 19:22:56,217 - INFO - Rotation du "Servo pour rotation du poignet (WRIST_rotate)" a un angle de 83 degrés
+2019-01-24 19:22:56,218 - DEBUG - Déplacement du Servo pour rotation du poignet (WRIST_rotate) avec une longueur de pulse de 1370
+2019-01-24 19:22:56,219 - INFO - Déplacement du Servo pour rotation du poignet (WRIST_rotate) à un angle de 83 (°)
+2019-01-24 19:22:56,220 - INFO - Rotation du poignet (ABS_X) de 83
+2019-01-24 19:22:56,224 - INFO - Flexion du coude de "myRobot" à un angle de 107 degrés
+2019-01-24 19:22:56,225 - DEBUG - Déplacement du Servo pour flexion du coude (ELBOW_flex) avec une longueur de pulse de 1608
+2019-01-24 19:22:56,226 - INFO - Déplacement du Servo pour flexion du coude (ELBOW_flex) à un angle de 107 (°)
+2019-01-24 19:22:56,227 - INFO - Flexion du coude (ABS_Y) de 107
+2019-01-24 19:22:56,231 - INFO - Rotation du "Servo pour rotation du poignet (WRIST_rotate)" a un angle de 87 degrés
+2019-01-24 19:22:56,232 - DEBUG - Déplacement du Servo pour rotation du poignet (WRIST_rotate) avec une longueur de pulse de 1410
+2019-01-24 19:22:56,233 - INFO - Déplacement du Servo pour rotation du poignet (WRIST_rotate) à un angle de 87 (°)
+2019-01-24 19:22:56,234 - INFO - Rotation du poignet (ABS_X) de 87
+2019-01-24 19:22:56,237 - INFO - Flexion du coude de "myRobot" à un angle de 94 degrés
+2019-01-24 19:22:56,238 - DEBUG - Déplacement du Servo pour flexion du coude (ELBOW_flex) avec une longueur de pulse de 1479
+2019-01-24 19:22:56,239 - INFO - Déplacement du Servo pour flexion du coude (ELBOW_flex) à un angle de 94 (°)
+2019-01-24 19:22:56,240 - INFO - Flexion du coude (ABS_Y) de 94
+2019-01-24 19:22:56,244 - INFO - Flexion du coude de "myRobot" à un angle de 90 degrés
+2019-01-24 19:22:56,245 - DEBUG - Déplacement du Servo pour flexion du coude (ELBOW_flex) avec une longueur de pulse de 1440
+2019-01-24 19:22:56,246 - INFO - Déplacement du Servo pour flexion du coude (ELBOW_flex) à un angle de 90 (°)
+2019-01-24 19:22:56,247 - INFO - Flexion du coude (ABS_Y) de 90
+2019-01-24 19:22:56,977 - INFO - Flexion du coude de "myRobot" à un angle de 92 degrés
+2019-01-24 19:22:56,979 - DEBUG - Déplacement du Servo pour flexion du coude (ELBOW_flex) avec une longueur de pulse de 1459
+2019-01-24 19:22:56,980 - INFO - Déplacement du Servo pour flexion du coude (ELBOW_flex) à un angle de 92 (°)
+2019-01-24 19:22:56,981 - INFO - Flexion du coude (ABS_Y) de 92
+2019-01-24 19:22:56,993 - INFO - Rotation du "Servo pour rotation du poignet (WRIST_rotate)" a un angle de 85 degrés
+2019-01-24 19:22:56,994 - DEBUG - Déplacement du Servo pour rotation du poignet (WRIST_rotate) avec une longueur de pulse de 1390
+2019-01-24 19:22:56,996 - INFO - Déplacement du Servo pour rotation du poignet (WRIST_rotate) à un angle de 85 (°)
+2019-01-24 19:22:56,997 - INFO - Rotation du poignet (ABS_X) de 85
+2019-01-24 19:22:57,003 - INFO - Rotation du "Servo pour rotation du poignet (WRIST_rotate)" a un angle de 81 degrés
+2019-01-24 19:22:57,004 - DEBUG - Déplacement du Servo pour rotation du poignet (WRIST_rotate) avec une longueur de pulse de 1351
+2019-01-24 19:22:57,005 - INFO - Déplacement du Servo pour rotation du poignet (WRIST_rotate) à un angle de 81 (°)
+2019-01-24 19:22:57,006 - INFO - Rotation du poignet (ABS_X) de 81
+2019-01-24 19:22:57,012 - INFO - Rotation du "Servo pour rotation du poignet (WRIST_rotate)" a un angle de 74 degrés
+2019-01-24 19:22:57,014 - DEBUG - Déplacement du Servo pour rotation du poignet (WRIST_rotate) avec une longueur de pulse de 1281
+2019-01-24 19:22:57,015 - INFO - Déplacement du Servo pour rotation du poignet (WRIST_rotate) à un angle de 74 (°)
+2019-01-24 19:22:57,016 - INFO - Rotation du poignet (ABS_X) de 74
+2019-01-24 19:22:57,022 - INFO - Flexion du coude de "myRobot" à un angle de 94 degrés
+2019-01-24 19:22:57,023 - DEBUG - Déplacement du Servo pour flexion du coude (ELBOW_flex) avec une longueur de pulse de 1479
+2019-01-24 19:22:57,024 - INFO - Déplacement du Servo pour flexion du coude (ELBOW_flex) à un angle de 94 (°)
+2019-01-24 19:22:57,025 - INFO - Flexion du coude (ABS_Y) de 94
+2019-01-24 19:22:57,032 - INFO - Rotation du "Servo pour rotation du poignet (WRIST_rotate)" a un angle de 60 degrés
+2019-01-24 19:22:57,033 - DEBUG - Déplacement du Servo pour rotation du poignet (WRIST_rotate) avec une longueur de pulse de 1143
+2019-01-24 19:22:57,034 - INFO - Déplacement du Servo pour rotation du poignet (WRIST_rotate) à un angle de 60 (°)
+2019-01-24 19:22:57,036 - INFO - Rotation du poignet (ABS_X) de 60
+2019-01-24 19:22:57,041 - INFO - Rotation du "Servo pour rotation du poignet (WRIST_rotate)" a un angle de 44 degrés
+2019-01-24 19:22:57,042 - DEBUG - Déplacement du Servo pour rotation du poignet (WRIST_rotate) avec une longueur de pulse de 985
+2019-01-24 19:22:57,044 - INFO - Déplacement du Servo pour rotation du poignet (WRIST_rotate) à un angle de 44 (°)
+2019-01-24 19:22:57,045 - INFO - Rotation du poignet (ABS_X) de 44
+2019-01-24 19:22:57,050 - INFO - Flexion du coude de "myRobot" à un angle de 93 degrés
+2019-01-24 19:22:57,052 - DEBUG - Déplacement du Servo pour flexion du coude (ELBOW_flex) avec une longueur de pulse de 1469
+2019-01-24 19:22:57,053 - INFO - Déplacement du Servo pour flexion du coude (ELBOW_flex) à un angle de 93 (°)
+2019-01-24 19:22:57,054 - INFO - Flexion du coude (ABS_Y) de 93
+2019-01-24 19:22:57,060 - INFO - Rotation du "Servo pour rotation du poignet (WRIST_rotate)" a un angle de 23 degrés
+2019-01-24 19:22:57,061 - DEBUG - Déplacement du Servo pour rotation du poignet (WRIST_rotate) avec une longueur de pulse de 777
+2019-01-24 19:22:57,062 - INFO - Déplacement du Servo pour rotation du poignet (WRIST_rotate) à un angle de 23 (°)
+2019-01-24 19:22:57,063 - INFO - Rotation du poignet (ABS_X) de 23
+2019-01-24 19:22:57,069 - INFO - Flexion du coude de "myRobot" à un angle de 90 degrés
+2019-01-24 19:22:57,070 - DEBUG - Déplacement du Servo pour flexion du coude (ELBOW_flex) avec une longueur de pulse de 1440
+2019-01-24 19:22:57,071 - INFO - Déplacement du Servo pour flexion du coude (ELBOW_flex) à un angle de 90 (°)
+2019-01-24 19:22:57,073 - INFO - Flexion du coude (ABS_Y) de 90
+2019-01-24 19:22:57,079 - INFO - Rotation du "Servo pour rotation du poignet (WRIST_rotate)" a un angle de 3 degrés
+2019-01-24 19:22:57,081 - DEBUG - Déplacement du Servo pour rotation du poignet (WRIST_rotate) avec une longueur de pulse de 579
+2019-01-24 19:22:57,082 - INFO - Déplacement du Servo pour rotation du poignet (WRIST_rotate) à un angle de 3 (°)
+2019-01-24 19:22:57,083 - INFO - Rotation du poignet (ABS_X) de 3
+2019-01-24 19:22:57,088 - INFO - Flexion du coude de "myRobot" à un angle de 83 degrés
+2019-01-24 19:22:57,090 - DEBUG - Déplacement du Servo pour flexion du coude (ELBOW_flex) avec une longueur de pulse de 1370
+2019-01-24 19:22:57,091 - INFO - Déplacement du Servo pour flexion du coude (ELBOW_flex) à un angle de 83 (°)
+2019-01-24 19:22:57,092 - INFO - Flexion du coude (ABS_Y) de 83
+2019-01-24 19:22:57,098 - INFO - Rotation du "Servo pour rotation du poignet (WRIST_rotate)" a un angle de 0 degrés
+2019-01-24 19:22:57,099 - DEBUG - Déplacement du Servo pour rotation du poignet (WRIST_rotate) avec une longueur de pulse de 550
+2019-01-24 19:22:57,101 - INFO - Déplacement du Servo pour rotation du poignet (WRIST_rotate) à un angle de 0 (°)
+2019-01-24 19:22:57,102 - INFO - Rotation du poignet (ABS_X) de 0
+2019-01-24 19:22:57,107 - INFO - Flexion du coude de "myRobot" à un angle de 85 degrés
+2019-01-24 19:22:57,108 - DEBUG - Déplacement du Servo pour flexion du coude (ELBOW_flex) avec une longueur de pulse de 1390
+2019-01-24 19:22:57,110 - INFO - Déplacement du Servo pour flexion du coude (ELBOW_flex) à un angle de 85 (°)
+2019-01-24 19:22:57,111 - INFO - Flexion du coude (ABS_Y) de 85
+2019-01-24 19:22:57,117 - INFO - Flexion du coude de "myRobot" à un angle de 86 degrés
+2019-01-24 19:22:57,118 - DEBUG - Déplacement du Servo pour flexion du coude (ELBOW_flex) avec une longueur de pulse de 1400
+2019-01-24 19:22:57,119 - INFO - Déplacement du Servo pour flexion du coude (ELBOW_flex) à un angle de 86 (°)
+2019-01-24 19:22:57,120 - INFO - Flexion du coude (ABS_Y) de 86
+2019-01-24 19:22:57,126 - INFO - Flexion du coude de "myRobot" à un angle de 87 degrés
+2019-01-24 19:22:57,127 - DEBUG - Déplacement du Servo pour flexion du coude (ELBOW_flex) avec une longueur de pulse de 1410
+2019-01-24 19:22:57,128 - INFO - Déplacement du Servo pour flexion du coude (ELBOW_flex) à un angle de 87 (°)
+2019-01-24 19:22:57,129 - INFO - Flexion du coude (ABS_Y) de 87
+2019-01-24 19:22:57,133 - INFO - Flexion du coude de "myRobot" à un angle de 88 degrés
+2019-01-24 19:22:57,134 - DEBUG - Déplacement du Servo pour flexion du coude (ELBOW_flex) avec une longueur de pulse de 1420
+2019-01-24 19:22:57,135 - INFO - Déplacement du Servo pour flexion du coude (ELBOW_flex) à un angle de 88 (°)
+2019-01-24 19:22:57,136 - INFO - Flexion du coude (ABS_Y) de 88
+2019-01-24 19:22:57,140 - INFO - Rotation du "Servo pour rotation du poignet (WRIST_rotate)" a un angle de 2 degrés
+2019-01-24 19:22:57,141 - DEBUG - Déplacement du Servo pour rotation du poignet (WRIST_rotate) avec une longueur de pulse de 569
+2019-01-24 19:22:57,142 - INFO - Déplacement du Servo pour rotation du poignet (WRIST_rotate) à un angle de 2 (°)
+2019-01-24 19:22:57,143 - INFO - Rotation du poignet (ABS_X) de 2
+2019-01-24 19:22:57,147 - INFO - Flexion du coude de "myRobot" à un angle de 89 degrés
+2019-01-24 19:22:57,148 - DEBUG - Déplacement du Servo pour flexion du coude (ELBOW_flex) avec une longueur de pulse de 1430
+2019-01-24 19:22:57,149 - INFO - Déplacement du Servo pour flexion du coude (ELBOW_flex) à un angle de 89 (°)
+2019-01-24 19:22:57,150 - INFO - Flexion du coude (ABS_Y) de 89
+2019-01-24 19:22:57,154 - INFO - Rotation du "Servo pour rotation du poignet (WRIST_rotate)" a un angle de 18 degrés
+2019-01-24 19:22:57,155 - DEBUG - Déplacement du Servo pour rotation du poignet (WRIST_rotate) avec une longueur de pulse de 728
+2019-01-24 19:22:57,156 - INFO - Déplacement du Servo pour rotation du poignet (WRIST_rotate) à un angle de 18 (°)
+2019-01-24 19:22:57,157 - INFO - Rotation du poignet (ABS_X) de 18
+2019-01-24 19:22:57,161 - INFO - Rotation du "Servo pour rotation du poignet (WRIST_rotate)" a un angle de 57 degrés
+2019-01-24 19:22:57,162 - DEBUG - Déplacement du Servo pour rotation du poignet (WRIST_rotate) avec une longueur de pulse de 1113
+2019-01-24 19:22:57,163 - INFO - Déplacement du Servo pour rotation du poignet (WRIST_rotate) à un angle de 57 (°)
+2019-01-24 19:22:57,164 - INFO - Rotation du poignet (ABS_X) de 57
+2019-01-24 19:22:57,168 - INFO - Rotation du "Servo pour rotation du poignet (WRIST_rotate)" a un angle de 90 degrés
+2019-01-24 19:22:57,169 - DEBUG - Déplacement du Servo pour rotation du poignet (WRIST_rotate) avec une longueur de pulse de 1440
+2019-01-24 19:22:57,170 - INFO - Déplacement du Servo pour rotation du poignet (WRIST_rotate) à un angle de 90 (°)
+2019-01-24 19:22:57,171 - INFO - Rotation du poignet (ABS_X) de 90
+2019-01-24 19:22:57,175 - INFO - Flexion du coude de "myRobot" à un angle de 90 degrés
+2019-01-24 19:22:57,176 - DEBUG - Déplacement du Servo pour flexion du coude (ELBOW_flex) avec une longueur de pulse de 1440
+2019-01-24 19:22:57,177 - INFO - Déplacement du Servo pour flexion du coude (ELBOW_flex) à un angle de 90 (°)
+2019-01-24 19:22:57,178 - INFO - Flexion du coude (ABS_Y) de 90
+2019-01-24 19:22:57,182 - INFO - Rotation du "Servo pour rotation du poignet (WRIST_rotate)" a un angle de 87 degrés
+2019-01-24 19:22:57,183 - DEBUG - Déplacement du Servo pour rotation du poignet (WRIST_rotate) avec une longueur de pulse de 1410
+2019-01-24 19:22:57,184 - INFO - Déplacement du Servo pour rotation du poignet (WRIST_rotate) à un angle de 87 (°)
+2019-01-24 19:22:57,185 - INFO - Rotation du poignet (ABS_X) de 87
+2019-01-24 19:22:57,639 - INFO - Rotation du "Servo pour rotation du poignet (WRIST_rotate)" a un angle de 89 degrés
+2019-01-24 19:22:57,640 - DEBUG - Déplacement du Servo pour rotation du poignet (WRIST_rotate) avec une longueur de pulse de 1430
+2019-01-24 19:22:57,641 - INFO - Déplacement du Servo pour rotation du poignet (WRIST_rotate) à un angle de 89 (°)
+2019-01-24 19:22:57,642 - INFO - Rotation du poignet (ABS_X) de 89
+2019-01-24 19:22:57,647 - INFO - Rotation du "Servo pour rotation du poignet (WRIST_rotate)" a un angle de 90 degrés
+2019-01-24 19:22:57,648 - DEBUG - Déplacement du Servo pour rotation du poignet (WRIST_rotate) avec une longueur de pulse de 1440
+2019-01-24 19:22:57,649 - INFO - Déplacement du Servo pour rotation du poignet (WRIST_rotate) à un angle de 90 (°)
+2019-01-24 19:22:57,650 - INFO - Rotation du poignet (ABS_X) de 90
+2019-01-24 19:22:57,799 - INFO - Rotation du "Servo pour rotation du poignet (WRIST_rotate)" a un angle de 90 degrés
+2019-01-24 19:22:57,801 - DEBUG - Déplacement du Servo pour rotation du poignet (WRIST_rotate) avec une longueur de pulse de 1440
+2019-01-24 19:22:57,802 - INFO - Déplacement du Servo pour rotation du poignet (WRIST_rotate) à un angle de 90 (°)
+2019-01-24 19:22:57,802 - INFO - Rotation du poignet (ABS_X) de 90
+2019-01-24 19:22:57,823 - INFO - Rotation du "Servo pour rotation du poignet (WRIST_rotate)" a un angle de 92 degrés
+2019-01-24 19:22:57,824 - DEBUG - Déplacement du Servo pour rotation du poignet (WRIST_rotate) avec une longueur de pulse de 1459
+2019-01-24 19:22:57,825 - INFO - Déplacement du Servo pour rotation du poignet (WRIST_rotate) à un angle de 92 (°)
+2019-01-24 19:22:57,826 - INFO - Rotation du poignet (ABS_X) de 92
+2019-01-24 19:22:57,832 - INFO - Rotation du "Servo pour rotation du poignet (WRIST_rotate)" a un angle de 97 degrés
+2019-01-24 19:22:57,833 - DEBUG - Déplacement du Servo pour rotation du poignet (WRIST_rotate) avec une longueur de pulse de 1509
+2019-01-24 19:22:57,835 - INFO - Déplacement du Servo pour rotation du poignet (WRIST_rotate) à un angle de 97 (°)
+2019-01-24 19:22:57,836 - INFO - Rotation du poignet (ABS_X) de 97
+2019-01-24 19:22:57,842 - INFO - Flexion du coude de "myRobot" à un angle de 84 degrés
+2019-01-24 19:22:57,843 - DEBUG - Déplacement du Servo pour flexion du coude (ELBOW_flex) avec une longueur de pulse de 1380
+2019-01-24 19:22:57,845 - INFO - Déplacement du Servo pour flexion du coude (ELBOW_flex) à un angle de 84 (°)
+2019-01-24 19:22:57,846 - INFO - Flexion du coude (ABS_Y) de 84
+2019-01-24 19:22:57,852 - INFO - Rotation du "Servo pour rotation du poignet (WRIST_rotate)" a un angle de 108 degrés
+2019-01-24 19:22:57,853 - DEBUG - Déplacement du Servo pour rotation du poignet (WRIST_rotate) avec une longueur de pulse de 1618
+2019-01-24 19:22:57,855 - INFO - Déplacement du Servo pour rotation du poignet (WRIST_rotate) à un angle de 108 (°)
+2019-01-24 19:22:57,856 - INFO - Rotation du poignet (ABS_X) de 108
+2019-01-24 19:22:57,862 - INFO - Rotation du "Servo pour rotation du poignet (WRIST_rotate)" a un angle de 126 degrés
+2019-01-24 19:22:57,863 - DEBUG - Déplacement du Servo pour rotation du poignet (WRIST_rotate) avec une longueur de pulse de 1796
+2019-01-24 19:22:57,865 - INFO - Déplacement du Servo pour rotation du poignet (WRIST_rotate) à un angle de 126 (°)
+2019-01-24 19:22:57,866 - INFO - Rotation du poignet (ABS_X) de 126
+2019-01-24 19:22:57,871 - INFO - Flexion du coude de "myRobot" à un angle de 83 degrés
+2019-01-24 19:22:57,873 - DEBUG - Déplacement du Servo pour flexion du coude (ELBOW_flex) avec une longueur de pulse de 1370
+2019-01-24 19:22:57,874 - INFO - Déplacement du Servo pour flexion du coude (ELBOW_flex) à un angle de 83 (°)
+2019-01-24 19:22:57,875 - INFO - Flexion du coude (ABS_Y) de 83
+2019-01-24 19:22:57,881 - INFO - Rotation du "Servo pour rotation du poignet (WRIST_rotate)" a un angle de 148 degrés
+2019-01-24 19:22:57,883 - DEBUG - Déplacement du Servo pour rotation du poignet (WRIST_rotate) avec une longueur de pulse de 2013
+2019-01-24 19:22:57,884 - INFO - Déplacement du Servo pour rotation du poignet (WRIST_rotate) à un angle de 148 (°)
+2019-01-24 19:22:57,885 - INFO - Rotation du poignet (ABS_X) de 148
+2019-01-24 19:22:57,891 - INFO - Flexion du coude de "myRobot" à un angle de 82 degrés
+2019-01-24 19:22:57,892 - DEBUG - Déplacement du Servo pour flexion du coude (ELBOW_flex) avec une longueur de pulse de 1360
+2019-01-24 19:22:57,893 - INFO - Déplacement du Servo pour flexion du coude (ELBOW_flex) à un angle de 82 (°)
+2019-01-24 19:22:57,894 - INFO - Flexion du coude (ABS_Y) de 82
+2019-01-24 19:22:57,900 - INFO - Rotation du "Servo pour rotation du poignet (WRIST_rotate)" a un angle de 180 degrés
+2019-01-24 19:22:57,902 - DEBUG - Déplacement du Servo pour rotation du poignet (WRIST_rotate) avec une longueur de pulse de 2330
+2019-01-24 19:22:57,903 - INFO - Déplacement du Servo pour rotation du poignet (WRIST_rotate) à un angle de 180 (°)
+2019-01-24 19:22:57,904 - INFO - Rotation du poignet (ABS_X) de 180
+2019-01-24 19:22:57,909 - INFO - Flexion du coude de "myRobot" à un angle de 81 degrés
+2019-01-24 19:22:57,911 - DEBUG - Déplacement du Servo pour flexion du coude (ELBOW_flex) avec une longueur de pulse de 1351
+2019-01-24 19:22:57,912 - INFO - Déplacement du Servo pour flexion du coude (ELBOW_flex) à un angle de 81 (°)
+2019-01-24 19:22:57,913 - INFO - Flexion du coude (ABS_Y) de 81
+2019-01-24 19:22:57,919 - INFO - Flexion du coude de "myRobot" à un angle de 80 degrés
+2019-01-24 19:22:57,921 - DEBUG - Déplacement du Servo pour flexion du coude (ELBOW_flex) avec une longueur de pulse de 1341
+2019-01-24 19:22:57,922 - INFO - Déplacement du Servo pour flexion du coude (ELBOW_flex) à un angle de 80 (°)
+2019-01-24 19:22:57,923 - INFO - Flexion du coude (ABS_Y) de 80
+2019-01-24 19:22:57,929 - INFO - Flexion du coude de "myRobot" à un angle de 83 degrés
+2019-01-24 19:22:57,930 - DEBUG - Déplacement du Servo pour flexion du coude (ELBOW_flex) avec une longueur de pulse de 1370
+2019-01-24 19:22:57,931 - INFO - Déplacement du Servo pour flexion du coude (ELBOW_flex) à un angle de 83 (°)
+2019-01-24 19:22:57,932 - INFO - Flexion du coude (ABS_Y) de 83
+2019-01-24 19:22:57,937 - INFO - Flexion du coude de "myRobot" à un angle de 84 degrés
+2019-01-24 19:22:57,938 - DEBUG - Déplacement du Servo pour flexion du coude (ELBOW_flex) avec une longueur de pulse de 1380
+2019-01-24 19:22:57,938 - INFO - Déplacement du Servo pour flexion du coude (ELBOW_flex) à un angle de 84 (°)
+2019-01-24 19:22:57,939 - INFO - Flexion du coude (ABS_Y) de 84
+2019-01-24 19:22:57,944 - INFO - Flexion du coude de "myRobot" à un angle de 94 degrés
+2019-01-24 19:22:57,945 - DEBUG - Déplacement du Servo pour flexion du coude (ELBOW_flex) avec une longueur de pulse de 1479
+2019-01-24 19:22:57,946 - INFO - Déplacement du Servo pour flexion du coude (ELBOW_flex) à un angle de 94 (°)
+2019-01-24 19:22:57,947 - INFO - Flexion du coude (ABS_Y) de 94
+2019-01-24 19:22:57,951 - INFO - Flexion du coude de "myRobot" à un angle de 98 degrés
+2019-01-24 19:22:57,952 - DEBUG - Déplacement du Servo pour flexion du coude (ELBOW_flex) avec une longueur de pulse de 1519
+2019-01-24 19:22:57,953 - INFO - Déplacement du Servo pour flexion du coude (ELBOW_flex) à un angle de 98 (°)
+2019-01-24 19:22:57,954 - INFO - Flexion du coude (ABS_Y) de 98
+2019-01-24 19:22:57,958 - INFO - Flexion du coude de "myRobot" à un angle de 100 degrés
+2019-01-24 19:22:57,959 - DEBUG - Déplacement du Servo pour flexion du coude (ELBOW_flex) avec une longueur de pulse de 1538
+2019-01-24 19:22:57,960 - INFO - Déplacement du Servo pour flexion du coude (ELBOW_flex) à un angle de 100 (°)
+2019-01-24 19:22:57,961 - INFO - Flexion du coude (ABS_Y) de 100
+2019-01-24 19:22:57,965 - INFO - Rotation du "Servo pour rotation du poignet (WRIST_rotate)" a un angle de 172 degrés
+2019-01-24 19:22:57,966 - DEBUG - Déplacement du Servo pour rotation du poignet (WRIST_rotate) avec une longueur de pulse de 2250
+2019-01-24 19:22:57,967 - INFO - Déplacement du Servo pour rotation du poignet (WRIST_rotate) à un angle de 172 (°)
+2019-01-24 19:22:57,968 - INFO - Rotation du poignet (ABS_X) de 172
+2019-01-24 19:22:57,972 - INFO - Rotation du "Servo pour rotation du poignet (WRIST_rotate)" a un angle de 131 degrés
+2019-01-24 19:22:57,973 - DEBUG - Déplacement du Servo pour rotation du poignet (WRIST_rotate) avec une longueur de pulse de 1845
+2019-01-24 19:22:57,974 - INFO - Déplacement du Servo pour rotation du poignet (WRIST_rotate) à un angle de 131 (°)
+2019-01-24 19:22:57,975 - INFO - Rotation du poignet (ABS_X) de 131
+2019-01-24 19:22:57,979 - INFO - Rotation du "Servo pour rotation du poignet (WRIST_rotate)" a un angle de 72 degrés
+2019-01-24 19:22:57,981 - DEBUG - Déplacement du Servo pour rotation du poignet (WRIST_rotate) avec une longueur de pulse de 1262
+2019-01-24 19:22:57,981 - INFO - Déplacement du Servo pour rotation du poignet (WRIST_rotate) à un angle de 72 (°)
+2019-01-24 19:22:57,982 - INFO - Rotation du poignet (ABS_X) de 72
+2019-01-24 19:22:57,987 - INFO - Flexion du coude de "myRobot" à un angle de 83 degrés
+2019-01-24 19:22:57,988 - DEBUG - Déplacement du Servo pour flexion du coude (ELBOW_flex) avec une longueur de pulse de 1370
+2019-01-24 19:22:57,989 - INFO - Déplacement du Servo pour flexion du coude (ELBOW_flex) à un angle de 83 (°)
+2019-01-24 19:22:57,990 - INFO - Flexion du coude (ABS_Y) de 83
+2019-01-24 19:22:57,994 - INFO - Rotation du "Servo pour rotation du poignet (WRIST_rotate)" a un angle de 83 degrés
+2019-01-24 19:22:57,995 - DEBUG - Déplacement du Servo pour rotation du poignet (WRIST_rotate) avec une longueur de pulse de 1370
+2019-01-24 19:22:57,996 - INFO - Déplacement du Servo pour rotation du poignet (WRIST_rotate) à un angle de 83 (°)
+2019-01-24 19:22:57,997 - INFO - Rotation du poignet (ABS_X) de 83
+2019-01-24 19:22:58,001 - INFO - Flexion du coude de "myRobot" à un angle de 90 degrés
+2019-01-24 19:22:58,002 - DEBUG - Déplacement du Servo pour flexion du coude (ELBOW_flex) avec une longueur de pulse de 1440
+2019-01-24 19:22:58,003 - INFO - Déplacement du Servo pour flexion du coude (ELBOW_flex) à un angle de 90 (°)
+2019-01-24 19:22:58,003 - INFO - Flexion du coude (ABS_Y) de 90
+2019-01-24 19:22:58,007 - INFO - Rotation du "Servo pour rotation du poignet (WRIST_rotate)" a un angle de 90 degrés
+2019-01-24 19:22:58,009 - DEBUG - Déplacement du Servo pour rotation du poignet (WRIST_rotate) avec une longueur de pulse de 1440
+2019-01-24 19:22:58,009 - INFO - Déplacement du Servo pour rotation du poignet (WRIST_rotate) à un angle de 90 (°)
+2019-01-24 19:22:58,010 - INFO - Rotation du poignet (ABS_X) de 90
+2019-01-24 19:22:58,014 - INFO - Flexion du coude de "myRobot" à un angle de 90 degrés
+2019-01-24 19:22:58,016 - DEBUG - Déplacement du Servo pour flexion du coude (ELBOW_flex) avec une longueur de pulse de 1440
+2019-01-24 19:22:58,016 - INFO - Déplacement du Servo pour flexion du coude (ELBOW_flex) à un angle de 90 (°)
+2019-01-24 19:22:58,017 - INFO - Flexion du coude (ABS_Y) de 90
+2019-01-24 19:22:58,979 - INFO - Rotation de l'épaule avec le Servo pour rotation de l'épaule (SHOULDER_rotate) à un angle de 91 degrés
+2019-01-24 19:22:58,982 - DEBUG - Déplacement du Servo pour rotation de l'épaule (SHOULDER_rotate) avec une longueur de pulse de 1449
+2019-01-24 19:22:58,984 - INFO - Déplacement du Servo pour rotation de l'épaule (SHOULDER_rotate) à un angle de 91 (°)
+2019-01-24 19:22:58,986 - INFO - Rotation de l'épaule de 91
+2019-01-24 19:22:58,993 - INFO - Rotation de l'épaule avec le Servo pour rotation de l'épaule (SHOULDER_rotate) à un angle de 92 degrés
+2019-01-24 19:22:58,995 - DEBUG - Déplacement du Servo pour rotation de l'épaule (SHOULDER_rotate) avec une longueur de pulse de 1459
+2019-01-24 19:22:58,997 - INFO - Déplacement du Servo pour rotation de l'épaule (SHOULDER_rotate) à un angle de 92 (°)
+2019-01-24 19:22:58,998 - INFO - Rotation de l'épaule de 92
+2019-01-24 19:22:59,005 - INFO - Flexion de l'épaule de myRobot à un angle de 91 degrés
+2019-01-24 19:22:59,007 - DEBUG - Déplacement du Servo pour flexion de l'épaule (SHOULDER_flex) avec une longueur de pulse de 1449
+2019-01-24 19:22:59,009 - INFO - Déplacement du Servo pour flexion de l'épaule (SHOULDER_flex) à un angle de 91 (°)
+2019-01-24 19:22:59,010 - INFO - Flexion de l'épaule à 91 degrés 
+2019-01-24 19:22:59,019 - INFO - Rotation de l'épaule avec le Servo pour rotation de l'épaule (SHOULDER_rotate) à un angle de 97 degrés
+2019-01-24 19:22:59,021 - DEBUG - Déplacement du Servo pour rotation de l'épaule (SHOULDER_rotate) avec une longueur de pulse de 1509
+2019-01-24 19:22:59,023 - INFO - Déplacement du Servo pour rotation de l'épaule (SHOULDER_rotate) à un angle de 97 (°)
+2019-01-24 19:22:59,024 - INFO - Rotation de l'épaule de 97
+2019-01-24 19:22:59,032 - INFO - Rotation de l'épaule avec le Servo pour rotation de l'épaule (SHOULDER_rotate) à un angle de 98 degrés
+2019-01-24 19:22:59,034 - DEBUG - Déplacement du Servo pour rotation de l'épaule (SHOULDER_rotate) avec une longueur de pulse de 1519
+2019-01-24 19:22:59,035 - INFO - Déplacement du Servo pour rotation de l'épaule (SHOULDER_rotate) à un angle de 98 (°)
+2019-01-24 19:22:59,036 - INFO - Rotation de l'épaule de 98
+2019-01-24 19:22:59,041 - INFO - Flexion de l'épaule de myRobot à un angle de 94 degrés
+2019-01-24 19:22:59,043 - DEBUG - Déplacement du Servo pour flexion de l'épaule (SHOULDER_flex) avec une longueur de pulse de 1479
+2019-01-24 19:22:59,044 - INFO - Déplacement du Servo pour flexion de l'épaule (SHOULDER_flex) à un angle de 94 (°)
+2019-01-24 19:22:59,045 - INFO - Flexion de l'épaule à 94 degrés 
+2019-01-24 19:22:59,049 - INFO - Rotation de l'épaule avec le Servo pour rotation de l'épaule (SHOULDER_rotate) à un angle de 101 degrés
+2019-01-24 19:22:59,050 - DEBUG - Déplacement du Servo pour rotation de l'épaule (SHOULDER_rotate) avec une longueur de pulse de 1548
+2019-01-24 19:22:59,051 - INFO - Déplacement du Servo pour rotation de l'épaule (SHOULDER_rotate) à un angle de 101 (°)
+2019-01-24 19:22:59,051 - INFO - Rotation de l'épaule de 101
+2019-01-24 19:22:59,055 - INFO - Flexion de l'épaule de myRobot à un angle de 95 degrés
+2019-01-24 19:22:59,057 - DEBUG - Déplacement du Servo pour flexion de l'épaule (SHOULDER_flex) avec une longueur de pulse de 1489
+2019-01-24 19:22:59,058 - INFO - Déplacement du Servo pour flexion de l'épaule (SHOULDER_flex) à un angle de 95 (°)
+2019-01-24 19:22:59,060 - INFO - Flexion de l'épaule à 95 degrés 
+2019-01-24 19:22:59,066 - INFO - Rotation de l'épaule avec le Servo pour rotation de l'épaule (SHOULDER_rotate) à un angle de 117 degrés
+2019-01-24 19:22:59,067 - DEBUG - Déplacement du Servo pour rotation de l'épaule (SHOULDER_rotate) avec une longueur de pulse de 1707
+2019-01-24 19:22:59,069 - INFO - Déplacement du Servo pour rotation de l'épaule (SHOULDER_rotate) à un angle de 117 (°)
+2019-01-24 19:22:59,070 - INFO - Rotation de l'épaule de 117
+2019-01-24 19:22:59,075 - INFO - Flexion de l'épaule de myRobot à un angle de 97 degrés
+2019-01-24 19:22:59,076 - DEBUG - Déplacement du Servo pour flexion de l'épaule (SHOULDER_flex) avec une longueur de pulse de 1509
+2019-01-24 19:22:59,077 - INFO - Déplacement du Servo pour flexion de l'épaule (SHOULDER_flex) à un angle de 97 (°)
+2019-01-24 19:22:59,079 - INFO - Flexion de l'épaule à 97 degrés 
+2019-01-24 19:22:59,083 - INFO - Rotation de l'épaule avec le Servo pour rotation de l'épaule (SHOULDER_rotate) à un angle de 140 degrés
+2019-01-24 19:22:59,085 - DEBUG - Déplacement du Servo pour rotation de l'épaule (SHOULDER_rotate) avec une longueur de pulse de 1934
+2019-01-24 19:22:59,086 - INFO - Déplacement du Servo pour rotation de l'épaule (SHOULDER_rotate) à un angle de 140 (°)
+2019-01-24 19:22:59,087 - INFO - Rotation de l'épaule de 140
+2019-01-24 19:22:59,093 - INFO - Rotation de l'épaule avec le Servo pour rotation de l'épaule (SHOULDER_rotate) à un angle de 168 degrés
+2019-01-24 19:22:59,094 - DEBUG - Déplacement du Servo pour rotation de l'épaule (SHOULDER_rotate) avec une longueur de pulse de 2211
+2019-01-24 19:22:59,095 - INFO - Déplacement du Servo pour rotation de l'épaule (SHOULDER_rotate) à un angle de 168 (°)
+2019-01-24 19:22:59,096 - INFO - Rotation de l'épaule de 168
+2019-01-24 19:22:59,101 - INFO - Flexion de l'épaule de myRobot à un angle de 95 degrés
+2019-01-24 19:22:59,102 - DEBUG - Déplacement du Servo pour flexion de l'épaule (SHOULDER_flex) avec une longueur de pulse de 1489
+2019-01-24 19:22:59,103 - INFO - Déplacement du Servo pour flexion de l'épaule (SHOULDER_flex) à un angle de 95 (°)
+2019-01-24 19:22:59,103 - INFO - Flexion de l'épaule à 95 degrés 
+2019-01-24 19:22:59,108 - INFO - Rotation de l'épaule avec le Servo pour rotation de l'épaule (SHOULDER_rotate) à un angle de 180 degrés
+2019-01-24 19:22:59,109 - DEBUG - Déplacement du Servo pour rotation de l'épaule (SHOULDER_rotate) avec une longueur de pulse de 2330
+2019-01-24 19:22:59,110 - INFO - Déplacement du Servo pour rotation de l'épaule (SHOULDER_rotate) à un angle de 180 (°)
+2019-01-24 19:22:59,111 - INFO - Rotation de l'épaule de 180
+2019-01-24 19:22:59,115 - INFO - Flexion de l'épaule de myRobot à un angle de 90 degrés
+2019-01-24 19:22:59,116 - DEBUG - Déplacement du Servo pour flexion de l'épaule (SHOULDER_flex) avec une longueur de pulse de 1440
+2019-01-24 19:22:59,116 - INFO - Déplacement du Servo pour flexion de l'épaule (SHOULDER_flex) à un angle de 90 (°)
+2019-01-24 19:22:59,117 - INFO - Flexion de l'épaule à 90 degrés 
+2019-01-24 19:22:59,121 - INFO - Flexion de l'épaule de myRobot à un angle de 92 degrés
+2019-01-24 19:22:59,122 - DEBUG - Déplacement du Servo pour flexion de l'épaule (SHOULDER_flex) avec une longueur de pulse de 1459
+2019-01-24 19:22:59,123 - INFO - Déplacement du Servo pour flexion de l'épaule (SHOULDER_flex) à un angle de 92 (°)
+2019-01-24 19:22:59,124 - INFO - Flexion de l'épaule à 92 degrés 
+2019-01-24 19:22:59,128 - INFO - Flexion de l'épaule de myRobot à un angle de 95 degrés
+2019-01-24 19:22:59,129 - DEBUG - Déplacement du Servo pour flexion de l'épaule (SHOULDER_flex) avec une longueur de pulse de 1489
+2019-01-24 19:22:59,130 - INFO - Déplacement du Servo pour flexion de l'épaule (SHOULDER_flex) à un angle de 95 (°)
+2019-01-24 19:22:59,131 - INFO - Flexion de l'épaule à 95 degrés 
+2019-01-24 19:22:59,135 - INFO - Flexion de l'épaule de myRobot à un angle de 99 degrés
+2019-01-24 19:22:59,136 - DEBUG - Déplacement du Servo pour flexion de l'épaule (SHOULDER_flex) avec une longueur de pulse de 1529
+2019-01-24 19:22:59,137 - INFO - Déplacement du Servo pour flexion de l'épaule (SHOULDER_flex) à un angle de 99 (°)
+2019-01-24 19:22:59,138 - INFO - Flexion de l'épaule à 99 degrés 
+2019-01-24 19:22:59,144 - INFO - Flexion de l'épaule de myRobot à un angle de 100 degrés
+2019-01-24 19:22:59,145 - DEBUG - Déplacement du Servo pour flexion de l'épaule (SHOULDER_flex) avec une longueur de pulse de 1538
+2019-01-24 19:22:59,146 - INFO - Déplacement du Servo pour flexion de l'épaule (SHOULDER_flex) à un angle de 100 (°)
+2019-01-24 19:22:59,147 - INFO - Flexion de l'épaule à 100 degrés 
+2019-01-24 19:22:59,151 - INFO - Flexion de l'épaule de myRobot à un angle de 102 degrés
+2019-01-24 19:22:59,152 - DEBUG - Déplacement du Servo pour flexion de l'épaule (SHOULDER_flex) avec une longueur de pulse de 1558
+2019-01-24 19:22:59,153 - INFO - Déplacement du Servo pour flexion de l'épaule (SHOULDER_flex) à un angle de 102 (°)
+2019-01-24 19:22:59,154 - INFO - Flexion de l'épaule à 102 degrés 
+2019-01-24 19:22:59,158 - INFO - Flexion de l'épaule de myRobot à un angle de 104 degrés
+2019-01-24 19:22:59,159 - DEBUG - Déplacement du Servo pour flexion de l'épaule (SHOULDER_flex) avec une longueur de pulse de 1578
+2019-01-24 19:22:59,160 - INFO - Déplacement du Servo pour flexion de l'épaule (SHOULDER_flex) à un angle de 104 (°)
+2019-01-24 19:22:59,160 - INFO - Flexion de l'épaule à 104 degrés 
+2019-01-24 19:22:59,165 - INFO - Flexion de l'épaule de myRobot à un angle de 105 degrés
+2019-01-24 19:22:59,166 - DEBUG - Déplacement du Servo pour flexion de l'épaule (SHOULDER_flex) avec une longueur de pulse de 1588
+2019-01-24 19:22:59,167 - INFO - Déplacement du Servo pour flexion de l'épaule (SHOULDER_flex) à un angle de 105 (°)
+2019-01-24 19:22:59,168 - INFO - Flexion de l'épaule à 105 degrés 
+2019-01-24 19:22:59,171 - INFO - Flexion de l'épaule de myRobot à un angle de 108 degrés
+2019-01-24 19:22:59,172 - DEBUG - Déplacement du Servo pour flexion de l'épaule (SHOULDER_flex) avec une longueur de pulse de 1618
+2019-01-24 19:22:59,173 - INFO - Déplacement du Servo pour flexion de l'épaule (SHOULDER_flex) à un angle de 108 (°)
+2019-01-24 19:22:59,174 - INFO - Flexion de l'épaule à 108 degrés 
+2019-01-24 19:22:59,178 - INFO - Flexion de l'épaule de myRobot à un angle de 111 degrés
+2019-01-24 19:22:59,179 - DEBUG - Déplacement du Servo pour flexion de l'épaule (SHOULDER_flex) avec une longueur de pulse de 1647
+2019-01-24 19:22:59,180 - INFO - Déplacement du Servo pour flexion de l'épaule (SHOULDER_flex) à un angle de 111 (°)
+2019-01-24 19:22:59,181 - INFO - Flexion de l'épaule à 111 degrés 
+2019-01-24 19:22:59,186 - INFO - Flexion de l'épaule de myRobot à un angle de 108 degrés
+2019-01-24 19:22:59,187 - DEBUG - Déplacement du Servo pour flexion de l'épaule (SHOULDER_flex) avec une longueur de pulse de 1618
+2019-01-24 19:22:59,187 - INFO - Déplacement du Servo pour flexion de l'épaule (SHOULDER_flex) à un angle de 108 (°)
+2019-01-24 19:22:59,188 - INFO - Flexion de l'épaule à 108 degrés 
+2019-01-24 19:22:59,192 - INFO - Rotation de l'épaule avec le Servo pour rotation de l'épaule (SHOULDER_rotate) à un angle de 174 degrés
+2019-01-24 19:22:59,193 - DEBUG - Déplacement du Servo pour rotation de l'épaule (SHOULDER_rotate) avec une longueur de pulse de 2270
+2019-01-24 19:22:59,194 - INFO - Déplacement du Servo pour rotation de l'épaule (SHOULDER_rotate) à un angle de 174 (°)
+2019-01-24 19:22:59,195 - INFO - Rotation de l'épaule de 174
+2019-01-24 19:22:59,199 - INFO - Rotation de l'épaule avec le Servo pour rotation de l'épaule (SHOULDER_rotate) à un angle de 156 degrés
+2019-01-24 19:22:59,200 - DEBUG - Déplacement du Servo pour rotation de l'épaule (SHOULDER_rotate) avec une longueur de pulse de 2092
+2019-01-24 19:22:59,201 - INFO - Déplacement du Servo pour rotation de l'épaule (SHOULDER_rotate) à un angle de 156 (°)
+2019-01-24 19:22:59,202 - INFO - Rotation de l'épaule de 156
+2019-01-24 19:22:59,206 - INFO - Flexion de l'épaule de myRobot à un angle de 107 degrés
+2019-01-24 19:22:59,207 - DEBUG - Déplacement du Servo pour flexion de l'épaule (SHOULDER_flex) avec une longueur de pulse de 1608
+2019-01-24 19:22:59,208 - INFO - Déplacement du Servo pour flexion de l'épaule (SHOULDER_flex) à un angle de 107 (°)
+2019-01-24 19:22:59,209 - INFO - Flexion de l'épaule à 107 degrés 
+2019-01-24 19:22:59,213 - INFO - Rotation de l'épaule avec le Servo pour rotation de l'épaule (SHOULDER_rotate) à un angle de 93 degrés
+2019-01-24 19:22:59,214 - DEBUG - Déplacement du Servo pour rotation de l'épaule (SHOULDER_rotate) avec une longueur de pulse de 1469
+2019-01-24 19:22:59,215 - INFO - Déplacement du Servo pour rotation de l'épaule (SHOULDER_rotate) à un angle de 93 (°)
+2019-01-24 19:22:59,216 - INFO - Rotation de l'épaule de 93
+2019-01-24 19:22:59,220 - INFO - Flexion de l'épaule de myRobot à un angle de 92 degrés
+2019-01-24 19:22:59,221 - DEBUG - Déplacement du Servo pour flexion de l'épaule (SHOULDER_flex) avec une longueur de pulse de 1459
+2019-01-24 19:22:59,222 - INFO - Déplacement du Servo pour flexion de l'épaule (SHOULDER_flex) à un angle de 92 (°)
+2019-01-24 19:22:59,222 - INFO - Flexion de l'épaule à 92 degrés 
+2019-01-24 19:22:59,227 - INFO - Rotation de l'épaule avec le Servo pour rotation de l'épaule (SHOULDER_rotate) à un angle de 90 degrés
+2019-01-24 19:22:59,228 - DEBUG - Déplacement du Servo pour rotation de l'épaule (SHOULDER_rotate) avec une longueur de pulse de 1440
+2019-01-24 19:22:59,229 - INFO - Déplacement du Servo pour rotation de l'épaule (SHOULDER_rotate) à un angle de 90 (°)
+2019-01-24 19:22:59,229 - INFO - Rotation de l'épaule de 90
+2019-01-24 19:22:59,233 - INFO - Flexion de l'épaule de myRobot à un angle de 90 degrés
+2019-01-24 19:22:59,234 - DEBUG - Déplacement du Servo pour flexion de l'épaule (SHOULDER_flex) avec une longueur de pulse de 1440
+2019-01-24 19:22:59,235 - INFO - Déplacement du Servo pour flexion de l'épaule (SHOULDER_flex) à un angle de 90 (°)
+2019-01-24 19:22:59,236 - INFO - Flexion de l'épaule à 90 degrés 
+2019-01-24 19:22:59,872 - INFO - Rotation de l'épaule avec le Servo pour rotation de l'épaule (SHOULDER_rotate) à un angle de 88 degrés
+2019-01-24 19:22:59,874 - DEBUG - Déplacement du Servo pour rotation de l'épaule (SHOULDER_rotate) avec une longueur de pulse de 1420
+2019-01-24 19:22:59,875 - INFO - Déplacement du Servo pour rotation de l'épaule (SHOULDER_rotate) à un angle de 88 (°)
+2019-01-24 19:22:59,876 - INFO - Rotation de l'épaule de 88
+2019-01-24 19:22:59,882 - INFO - Rotation de l'épaule avec le Servo pour rotation de l'épaule (SHOULDER_rotate) à un angle de 70 degrés
+2019-01-24 19:22:59,883 - DEBUG - Déplacement du Servo pour rotation de l'épaule (SHOULDER_rotate) avec une longueur de pulse de 1242
+2019-01-24 19:22:59,884 - INFO - Déplacement du Servo pour rotation de l'épaule (SHOULDER_rotate) à un angle de 70 (°)
+2019-01-24 19:22:59,886 - INFO - Rotation de l'épaule de 70
+2019-01-24 19:22:59,891 - INFO - Rotation de l'épaule avec le Servo pour rotation de l'épaule (SHOULDER_rotate) à un angle de 52 degrés
+2019-01-24 19:22:59,892 - DEBUG - Déplacement du Servo pour rotation de l'épaule (SHOULDER_rotate) avec une longueur de pulse de 1064
+2019-01-24 19:22:59,894 - INFO - Déplacement du Servo pour rotation de l'épaule (SHOULDER_rotate) à un angle de 52 (°)
+2019-01-24 19:22:59,895 - INFO - Rotation de l'épaule de 52
+2019-01-24 19:22:59,900 - INFO - Rotation de l'épaule avec le Servo pour rotation de l'épaule (SHOULDER_rotate) à un angle de 28 degrés
+2019-01-24 19:22:59,902 - DEBUG - Déplacement du Servo pour rotation de l'épaule (SHOULDER_rotate) avec une longueur de pulse de 826
+2019-01-24 19:22:59,903 - INFO - Déplacement du Servo pour rotation de l'épaule (SHOULDER_rotate) à un angle de 28 (°)
+2019-01-24 19:22:59,904 - INFO - Rotation de l'épaule de 28
+2019-01-24 19:22:59,910 - INFO - Rotation de l'épaule avec le Servo pour rotation de l'épaule (SHOULDER_rotate) à un angle de 1 degrés
+2019-01-24 19:22:59,911 - DEBUG - Déplacement du Servo pour rotation de l'épaule (SHOULDER_rotate) avec une longueur de pulse de 559
+2019-01-24 19:22:59,912 - INFO - Déplacement du Servo pour rotation de l'épaule (SHOULDER_rotate) à un angle de 1 (°)
+2019-01-24 19:22:59,913 - INFO - Rotation de l'épaule de 1
+2019-01-24 19:22:59,919 - INFO - Rotation de l'épaule avec le Servo pour rotation de l'épaule (SHOULDER_rotate) à un angle de 0 degrés
+2019-01-24 19:22:59,920 - DEBUG - Déplacement du Servo pour rotation de l'épaule (SHOULDER_rotate) avec une longueur de pulse de 550
+2019-01-24 19:22:59,921 - INFO - Déplacement du Servo pour rotation de l'épaule (SHOULDER_rotate) à un angle de 0 (°)
+2019-01-24 19:22:59,922 - INFO - Rotation de l'épaule de 0
+2019-01-24 19:22:59,977 - INFO - Flexion de l'épaule de myRobot à un angle de 94 degrés
+2019-01-24 19:22:59,978 - DEBUG - Déplacement du Servo pour flexion de l'épaule (SHOULDER_flex) avec une longueur de pulse de 1479
+2019-01-24 19:22:59,979 - INFO - Déplacement du Servo pour flexion de l'épaule (SHOULDER_flex) à un angle de 94 (°)
+2019-01-24 19:22:59,980 - INFO - Flexion de l'épaule à 94 degrés 
+2019-01-24 19:22:59,986 - INFO - Flexion de l'épaule de myRobot à un angle de 95 degrés
+2019-01-24 19:22:59,987 - DEBUG - Déplacement du Servo pour flexion de l'épaule (SHOULDER_flex) avec une longueur de pulse de 1489
+2019-01-24 19:22:59,988 - INFO - Déplacement du Servo pour flexion de l'épaule (SHOULDER_flex) à un angle de 95 (°)
+2019-01-24 19:22:59,989 - INFO - Flexion de l'épaule à 95 degrés 
+2019-01-24 19:22:59,994 - INFO - Flexion de l'épaule de myRobot à un angle de 97 degrés
+2019-01-24 19:22:59,996 - DEBUG - Déplacement du Servo pour flexion de l'épaule (SHOULDER_flex) avec une longueur de pulse de 1509
+2019-01-24 19:22:59,997 - INFO - Déplacement du Servo pour flexion de l'épaule (SHOULDER_flex) à un angle de 97 (°)
+2019-01-24 19:22:59,997 - INFO - Flexion de l'épaule à 97 degrés 
+2019-01-24 19:23:00,001 - INFO - Flexion de l'épaule de myRobot à un angle de 99 degrés
+2019-01-24 19:23:00,002 - DEBUG - Déplacement du Servo pour flexion de l'épaule (SHOULDER_flex) avec une longueur de pulse de 1529
+2019-01-24 19:23:00,003 - INFO - Déplacement du Servo pour flexion de l'épaule (SHOULDER_flex) à un angle de 99 (°)
+2019-01-24 19:23:00,004 - INFO - Flexion de l'épaule à 99 degrés 
+2019-01-24 19:23:00,008 - INFO - Flexion de l'épaule de myRobot à un angle de 100 degrés
+2019-01-24 19:23:00,009 - DEBUG - Déplacement du Servo pour flexion de l'épaule (SHOULDER_flex) avec une longueur de pulse de 1538
+2019-01-24 19:23:00,010 - INFO - Déplacement du Servo pour flexion de l'épaule (SHOULDER_flex) à un angle de 100 (°)
+2019-01-24 19:23:00,011 - INFO - Flexion de l'épaule à 100 degrés 
+2019-01-24 19:23:00,015 - INFO - Rotation de l'épaule avec le Servo pour rotation de l'épaule (SHOULDER_rotate) à un angle de 11 degrés
+2019-01-24 19:23:00,016 - DEBUG - Déplacement du Servo pour rotation de l'épaule (SHOULDER_rotate) avec une longueur de pulse de 658
+2019-01-24 19:23:00,017 - INFO - Déplacement du Servo pour rotation de l'épaule (SHOULDER_rotate) à un angle de 11 (°)
+2019-01-24 19:23:00,017 - INFO - Rotation de l'épaule de 11
+2019-01-24 19:23:00,023 - INFO - Rotation de l'épaule avec le Servo pour rotation de l'épaule (SHOULDER_rotate) à un angle de 33 degrés
+2019-01-24 19:23:00,024 - DEBUG - Déplacement du Servo pour rotation de l'épaule (SHOULDER_rotate) avec une longueur de pulse de 876
+2019-01-24 19:23:00,025 - INFO - Déplacement du Servo pour rotation de l'épaule (SHOULDER_rotate) à un angle de 33 (°)
+2019-01-24 19:23:00,025 - INFO - Rotation de l'épaule de 33
+2019-01-24 19:23:00,029 - INFO - Flexion de l'épaule de myRobot à un angle de 90 degrés
+2019-01-24 19:23:00,030 - DEBUG - Déplacement du Servo pour flexion de l'épaule (SHOULDER_flex) avec une longueur de pulse de 1440
+2019-01-24 19:23:00,031 - INFO - Déplacement du Servo pour flexion de l'épaule (SHOULDER_flex) à un angle de 90 (°)
+2019-01-24 19:23:00,032 - INFO - Flexion de l'épaule à 90 degrés 
+2019-01-24 19:23:00,036 - INFO - Rotation de l'épaule avec le Servo pour rotation de l'épaule (SHOULDER_rotate) à un angle de 66 degrés
+2019-01-24 19:23:00,037 - DEBUG - Déplacement du Servo pour rotation de l'épaule (SHOULDER_rotate) avec une longueur de pulse de 1202
+2019-01-24 19:23:00,038 - INFO - Déplacement du Servo pour rotation de l'épaule (SHOULDER_rotate) à un angle de 66 (°)
+2019-01-24 19:23:00,038 - INFO - Rotation de l'épaule de 66
+2019-01-24 19:23:00,041 - INFO - Flexion de l'épaule de myRobot à un angle de 89 degrés
+2019-01-24 19:23:00,043 - DEBUG - Déplacement du Servo pour flexion de l'épaule (SHOULDER_flex) avec une longueur de pulse de 1430
+2019-01-24 19:23:00,043 - INFO - Déplacement du Servo pour flexion de l'épaule (SHOULDER_flex) à un angle de 89 (°)
+2019-01-24 19:23:00,044 - INFO - Flexion de l'épaule à 89 degrés 
+2019-01-24 19:23:00,048 - INFO - Rotation de l'épaule avec le Servo pour rotation de l'épaule (SHOULDER_rotate) à un angle de 91 degrés
+2019-01-24 19:23:00,049 - DEBUG - Déplacement du Servo pour rotation de l'épaule (SHOULDER_rotate) avec une longueur de pulse de 1449
+2019-01-24 19:23:00,050 - INFO - Déplacement du Servo pour rotation de l'épaule (SHOULDER_rotate) à un angle de 91 (°)
+2019-01-24 19:23:00,051 - INFO - Rotation de l'épaule de 91
+2019-01-24 19:23:00,631 - INFO - Flexion de l'épaule de myRobot à un angle de 88 degrés
+2019-01-24 19:23:00,632 - DEBUG - Déplacement du Servo pour flexion de l'épaule (SHOULDER_flex) avec une longueur de pulse de 1420
+2019-01-24 19:23:00,633 - INFO - Déplacement du Servo pour flexion de l'épaule (SHOULDER_flex) à un angle de 88 (°)
+2019-01-24 19:23:00,634 - INFO - Flexion de l'épaule à 88 degrés 
+2019-01-24 19:23:00,639 - INFO - Flexion de l'épaule de myRobot à un angle de 83 degrés
+2019-01-24 19:23:00,640 - DEBUG - Déplacement du Servo pour flexion de l'épaule (SHOULDER_flex) avec une longueur de pulse de 1370
+2019-01-24 19:23:00,641 - INFO - Déplacement du Servo pour flexion de l'épaule (SHOULDER_flex) à un angle de 83 (°)
+2019-01-24 19:23:00,642 - INFO - Flexion de l'épaule à 83 degrés 
+2019-01-24 19:23:00,647 - INFO - Flexion de l'épaule de myRobot à un angle de 73 degrés
+2019-01-24 19:23:00,648 - DEBUG - Déplacement du Servo pour flexion de l'épaule (SHOULDER_flex) avec une longueur de pulse de 1271
+2019-01-24 19:23:00,649 - INFO - Déplacement du Servo pour flexion de l'épaule (SHOULDER_flex) à un angle de 73 (°)
+2019-01-24 19:23:00,650 - INFO - Flexion de l'épaule à 73 degrés 
+2019-01-24 19:23:00,656 - INFO - Flexion de l'épaule de myRobot à un angle de 60 degrés
+2019-01-24 19:23:00,657 - DEBUG - Déplacement du Servo pour flexion de l'épaule (SHOULDER_flex) avec une longueur de pulse de 1143
+2019-01-24 19:23:00,658 - INFO - Déplacement du Servo pour flexion de l'épaule (SHOULDER_flex) à un angle de 60 (°)
+2019-01-24 19:23:00,659 - INFO - Flexion de l'épaule à 60 degrés 
+2019-01-24 19:23:00,665 - INFO - Flexion de l'épaule de myRobot à un angle de 43 degrés
+2019-01-24 19:23:00,666 - DEBUG - Déplacement du Servo pour flexion de l'épaule (SHOULDER_flex) avec une longueur de pulse de 975
+2019-01-24 19:23:00,667 - INFO - Déplacement du Servo pour flexion de l'épaule (SHOULDER_flex) à un angle de 43 (°)
+2019-01-24 19:23:00,668 - INFO - Flexion de l'épaule à 43 degrés 
+2019-01-24 19:23:00,674 - INFO - Flexion de l'épaule de myRobot à un angle de 29 degrés
+2019-01-24 19:23:00,675 - DEBUG - Déplacement du Servo pour flexion de l'épaule (SHOULDER_flex) avec une longueur de pulse de 836
+2019-01-24 19:23:00,676 - INFO - Déplacement du Servo pour flexion de l'épaule (SHOULDER_flex) à un angle de 29 (°)
+2019-01-24 19:23:00,677 - INFO - Flexion de l'épaule à 29 degrés 
+2019-01-24 19:23:00,683 - INFO - Flexion de l'épaule de myRobot à un angle de 11 degrés
+2019-01-24 19:23:00,684 - DEBUG - Déplacement du Servo pour flexion de l'épaule (SHOULDER_flex) avec une longueur de pulse de 658
+2019-01-24 19:23:00,686 - INFO - Déplacement du Servo pour flexion de l'épaule (SHOULDER_flex) à un angle de 11 (°)
+2019-01-24 19:23:00,687 - INFO - Flexion de l'épaule à 11 degrés 
+2019-01-24 19:23:00,692 - INFO - Flexion de l'épaule de myRobot à un angle de 0 degrés
+2019-01-24 19:23:00,694 - DEBUG - Déplacement du Servo pour flexion de l'épaule (SHOULDER_flex) avec une longueur de pulse de 550
+2019-01-24 19:23:00,695 - INFO - Déplacement du Servo pour flexion de l'épaule (SHOULDER_flex) à un angle de 0 (°)
+2019-01-24 19:23:00,696 - INFO - Flexion de l'épaule à 0 degrés 
+2019-01-24 19:23:00,705 - INFO - Rotation de l'épaule avec le Servo pour rotation de l'épaule (SHOULDER_rotate) à un angle de 89 degrés
+2019-01-24 19:23:00,706 - DEBUG - Déplacement du Servo pour rotation de l'épaule (SHOULDER_rotate) avec une longueur de pulse de 1430
+2019-01-24 19:23:00,707 - INFO - Déplacement du Servo pour rotation de l'épaule (SHOULDER_rotate) à un angle de 89 (°)
+2019-01-24 19:23:00,708 - INFO - Rotation de l'épaule de 89
+2019-01-24 19:23:00,714 - INFO - Rotation de l'épaule avec le Servo pour rotation de l'épaule (SHOULDER_rotate) à un angle de 88 degrés
+2019-01-24 19:23:00,715 - DEBUG - Déplacement du Servo pour rotation de l'épaule (SHOULDER_rotate) avec une longueur de pulse de 1420
+2019-01-24 19:23:00,716 - INFO - Déplacement du Servo pour rotation de l'épaule (SHOULDER_rotate) à un angle de 88 (°)
+2019-01-24 19:23:00,718 - INFO - Rotation de l'épaule de 88
+2019-01-24 19:23:00,723 - INFO - Rotation de l'épaule avec le Servo pour rotation de l'épaule (SHOULDER_rotate) à un angle de 80 degrés
+2019-01-24 19:23:00,724 - DEBUG - Déplacement du Servo pour rotation de l'épaule (SHOULDER_rotate) avec une longueur de pulse de 1341
+2019-01-24 19:23:00,726 - INFO - Déplacement du Servo pour rotation de l'épaule (SHOULDER_rotate) à un angle de 80 (°)
+2019-01-24 19:23:00,727 - INFO - Rotation de l'épaule de 80
+2019-01-24 19:23:00,732 - INFO - Rotation de l'épaule avec le Servo pour rotation de l'épaule (SHOULDER_rotate) à un angle de 78 degrés
+2019-01-24 19:23:00,734 - DEBUG - Déplacement du Servo pour rotation de l'épaule (SHOULDER_rotate) avec une longueur de pulse de 1321
+2019-01-24 19:23:00,735 - INFO - Déplacement du Servo pour rotation de l'épaule (SHOULDER_rotate) à un angle de 78 (°)
+2019-01-24 19:23:00,736 - INFO - Rotation de l'épaule de 78
+2019-01-24 19:23:00,741 - INFO - Rotation de l'épaule avec le Servo pour rotation de l'épaule (SHOULDER_rotate) à un angle de 74 degrés
+2019-01-24 19:23:00,743 - DEBUG - Déplacement du Servo pour rotation de l'épaule (SHOULDER_rotate) avec une longueur de pulse de 1281
+2019-01-24 19:23:00,744 - INFO - Déplacement du Servo pour rotation de l'épaule (SHOULDER_rotate) à un angle de 74 (°)
+2019-01-24 19:23:00,745 - INFO - Rotation de l'épaule de 74
+2019-01-24 19:23:00,751 - INFO - Rotation de l'épaule avec le Servo pour rotation de l'épaule (SHOULDER_rotate) à un angle de 73 degrés
+2019-01-24 19:23:00,752 - DEBUG - Déplacement du Servo pour rotation de l'épaule (SHOULDER_rotate) avec une longueur de pulse de 1271
+2019-01-24 19:23:00,754 - INFO - Déplacement du Servo pour rotation de l'épaule (SHOULDER_rotate) à un angle de 73 (°)
+2019-01-24 19:23:00,755 - INFO - Rotation de l'épaule de 73
+2019-01-24 19:23:00,807 - INFO - Flexion de l'épaule de myRobot à un angle de 3 degrés
+2019-01-24 19:23:00,808 - DEBUG - Déplacement du Servo pour flexion de l'épaule (SHOULDER_flex) avec une longueur de pulse de 579
+2019-01-24 19:23:00,809 - INFO - Déplacement du Servo pour flexion de l'épaule (SHOULDER_flex) à un angle de 3 (°)
+2019-01-24 19:23:00,809 - INFO - Flexion de l'épaule à 3 degrés 
+2019-01-24 19:23:00,815 - INFO - Flexion de l'épaule de myRobot à un angle de 7 degrés
+2019-01-24 19:23:00,816 - DEBUG - Déplacement du Servo pour flexion de l'épaule (SHOULDER_flex) avec une longueur de pulse de 619
+2019-01-24 19:23:00,817 - INFO - Déplacement du Servo pour flexion de l'épaule (SHOULDER_flex) à un angle de 7 (°)
+2019-01-24 19:23:00,817 - INFO - Flexion de l'épaule à 7 degrés 
+2019-01-24 19:23:00,823 - INFO - Flexion de l'épaule de myRobot à un angle de 13 degrés
+2019-01-24 19:23:00,824 - DEBUG - Déplacement du Servo pour flexion de l'épaule (SHOULDER_flex) avec une longueur de pulse de 678
+2019-01-24 19:23:00,825 - INFO - Déplacement du Servo pour flexion de l'épaule (SHOULDER_flex) à un angle de 13 (°)
+2019-01-24 19:23:00,826 - INFO - Flexion de l'épaule à 13 degrés 
+2019-01-24 19:23:00,831 - INFO - Flexion de l'épaule de myRobot à un angle de 25 degrés
+2019-01-24 19:23:00,832 - DEBUG - Déplacement du Servo pour flexion de l'épaule (SHOULDER_flex) avec une longueur de pulse de 797
+2019-01-24 19:23:00,833 - INFO - Déplacement du Servo pour flexion de l'épaule (SHOULDER_flex) à un angle de 25 (°)
+2019-01-24 19:23:00,834 - INFO - Flexion de l'épaule à 25 degrés 
+2019-01-24 19:23:00,839 - INFO - Flexion de l'épaule de myRobot à un angle de 33 degrés
+2019-01-24 19:23:00,840 - DEBUG - Déplacement du Servo pour flexion de l'épaule (SHOULDER_flex) avec une longueur de pulse de 876
+2019-01-24 19:23:00,840 - INFO - Déplacement du Servo pour flexion de l'épaule (SHOULDER_flex) à un angle de 33 (°)
+2019-01-24 19:23:00,841 - INFO - Flexion de l'épaule à 33 degrés 
+2019-01-24 19:23:00,847 - INFO - Rotation de l'épaule avec le Servo pour rotation de l'épaule (SHOULDER_rotate) à un angle de 78 degrés
+2019-01-24 19:23:00,848 - DEBUG - Déplacement du Servo pour rotation de l'épaule (SHOULDER_rotate) avec une longueur de pulse de 1321
+2019-01-24 19:23:00,849 - INFO - Déplacement du Servo pour rotation de l'épaule (SHOULDER_rotate) à un angle de 78 (°)
+2019-01-24 19:23:00,850 - INFO - Rotation de l'épaule de 78
+2019-01-24 19:23:00,854 - INFO - Flexion de l'épaule de myRobot à un angle de 52 degrés
+2019-01-24 19:23:00,855 - DEBUG - Déplacement du Servo pour flexion de l'épaule (SHOULDER_flex) avec une longueur de pulse de 1064
+2019-01-24 19:23:00,856 - INFO - Déplacement du Servo pour flexion de l'épaule (SHOULDER_flex) à un angle de 52 (°)
+2019-01-24 19:23:00,856 - INFO - Flexion de l'épaule à 52 degrés 
+2019-01-24 19:23:00,860 - INFO - Rotation de l'épaule avec le Servo pour rotation de l'épaule (SHOULDER_rotate) à un angle de 90 degrés
+2019-01-24 19:23:00,861 - DEBUG - Déplacement du Servo pour rotation de l'épaule (SHOULDER_rotate) avec une longueur de pulse de 1440
+2019-01-24 19:23:00,862 - INFO - Déplacement du Servo pour rotation de l'épaule (SHOULDER_rotate) à un angle de 90 (°)
+2019-01-24 19:23:00,862 - INFO - Rotation de l'épaule de 90
+2019-01-24 19:23:00,866 - INFO - Flexion de l'épaule de myRobot à un angle de 80 degrés
+2019-01-24 19:23:00,867 - DEBUG - Déplacement du Servo pour flexion de l'épaule (SHOULDER_flex) avec une longueur de pulse de 1341
+2019-01-24 19:23:00,868 - INFO - Déplacement du Servo pour flexion de l'épaule (SHOULDER_flex) à un angle de 80 (°)
+2019-01-24 19:23:00,869 - INFO - Flexion de l'épaule à 80 degrés 
+2019-01-24 19:23:00,872 - INFO - Flexion de l'épaule de myRobot à un angle de 90 degrés
+2019-01-24 19:23:00,873 - DEBUG - Déplacement du Servo pour flexion de l'épaule (SHOULDER_flex) avec une longueur de pulse de 1440
+2019-01-24 19:23:00,874 - INFO - Déplacement du Servo pour flexion de l'épaule (SHOULDER_flex) à un angle de 90 (°)
+2019-01-24 19:23:00,874 - INFO - Flexion de l'épaule à 90 degrés 
+2019-01-24 19:23:01,216 - INFO - Flexion de l'épaule de myRobot à un angle de 90 degrés
+2019-01-24 19:23:01,217 - DEBUG - Déplacement du Servo pour flexion de l'épaule (SHOULDER_flex) avec une longueur de pulse de 1440
+2019-01-24 19:23:01,218 - INFO - Déplacement du Servo pour flexion de l'épaule (SHOULDER_flex) à un angle de 90 (°)
+2019-01-24 19:23:01,218 - INFO - Flexion de l'épaule à 90 degrés 
+2019-01-24 19:23:01,312 - INFO - Flexion de l'épaule de myRobot à un angle de 91 degrés
+2019-01-24 19:23:01,313 - DEBUG - Déplacement du Servo pour flexion de l'épaule (SHOULDER_flex) avec une longueur de pulse de 1449
+2019-01-24 19:23:01,314 - INFO - Déplacement du Servo pour flexion de l'épaule (SHOULDER_flex) à un angle de 91 (°)
+2019-01-24 19:23:01,315 - INFO - Flexion de l'épaule à 91 degrés 
+2019-01-24 19:23:01,319 - INFO - Flexion de l'épaule de myRobot à un angle de 94 degrés
+2019-01-24 19:23:01,320 - DEBUG - Déplacement du Servo pour flexion de l'épaule (SHOULDER_flex) avec une longueur de pulse de 1479
+2019-01-24 19:23:01,321 - INFO - Déplacement du Servo pour flexion de l'épaule (SHOULDER_flex) à un angle de 94 (°)
+2019-01-24 19:23:01,322 - INFO - Flexion de l'épaule à 94 degrés 
+2019-01-24 19:23:01,327 - INFO - Flexion de l'épaule de myRobot à un angle de 95 degrés
+2019-01-24 19:23:01,329 - DEBUG - Déplacement du Servo pour flexion de l'épaule (SHOULDER_flex) avec une longueur de pulse de 1489
+2019-01-24 19:23:01,329 - INFO - Déplacement du Servo pour flexion de l'épaule (SHOULDER_flex) à un angle de 95 (°)
+2019-01-24 19:23:01,330 - INFO - Flexion de l'épaule à 95 degrés 
+2019-01-24 19:23:01,336 - INFO - Rotation de l'épaule avec le Servo pour rotation de l'épaule (SHOULDER_rotate) à un angle de 90 degrés
+2019-01-24 19:23:01,337 - DEBUG - Déplacement du Servo pour rotation de l'épaule (SHOULDER_rotate) avec une longueur de pulse de 1440
+2019-01-24 19:23:01,337 - INFO - Déplacement du Servo pour rotation de l'épaule (SHOULDER_rotate) à un angle de 90 (°)
+2019-01-24 19:23:01,338 - INFO - Rotation de l'épaule de 90
+2019-01-24 19:23:01,342 - INFO - Flexion de l'épaule de myRobot à un angle de 99 degrés
+2019-01-24 19:23:01,343 - DEBUG - Déplacement du Servo pour flexion de l'épaule (SHOULDER_flex) avec une longueur de pulse de 1529
+2019-01-24 19:23:01,344 - INFO - Déplacement du Servo pour flexion de l'épaule (SHOULDER_flex) à un angle de 99 (°)
+2019-01-24 19:23:01,345 - INFO - Flexion de l'épaule à 99 degrés 
+2019-01-24 19:23:01,349 - INFO - Flexion de l'épaule de myRobot à un angle de 105 degrés
+2019-01-24 19:23:01,350 - DEBUG - Déplacement du Servo pour flexion de l'épaule (SHOULDER_flex) avec une longueur de pulse de 1588
+2019-01-24 19:23:01,351 - INFO - Déplacement du Servo pour flexion de l'épaule (SHOULDER_flex) à un angle de 105 (°)
+2019-01-24 19:23:01,352 - INFO - Flexion de l'épaule à 105 degrés 
+2019-01-24 19:23:01,356 - INFO - Flexion de l'épaule de myRobot à un angle de 121 degrés
+2019-01-24 19:23:01,357 - DEBUG - Déplacement du Servo pour flexion de l'épaule (SHOULDER_flex) avec une longueur de pulse de 1746
+2019-01-24 19:23:01,358 - INFO - Déplacement du Servo pour flexion de l'épaule (SHOULDER_flex) à un angle de 121 (°)
+2019-01-24 19:23:01,359 - INFO - Flexion de l'épaule à 121 degrés 
+2019-01-24 19:23:01,363 - INFO - Flexion de l'épaule de myRobot à un angle de 136 degrés
+2019-01-24 19:23:01,364 - DEBUG - Déplacement du Servo pour flexion de l'épaule (SHOULDER_flex) avec une longueur de pulse de 1894
+2019-01-24 19:23:01,365 - INFO - Déplacement du Servo pour flexion de l'épaule (SHOULDER_flex) à un angle de 136 (°)
+2019-01-24 19:23:01,366 - INFO - Flexion de l'épaule à 136 degrés 
+2019-01-24 19:23:01,370 - INFO - Flexion de l'épaule de myRobot à un angle de 153 degrés
+2019-01-24 19:23:01,371 - DEBUG - Déplacement du Servo pour flexion de l'épaule (SHOULDER_flex) avec une longueur de pulse de 2063
+2019-01-24 19:23:01,371 - INFO - Déplacement du Servo pour flexion de l'épaule (SHOULDER_flex) à un angle de 153 (°)
+2019-01-24 19:23:01,372 - INFO - Flexion de l'épaule à 153 degrés 
+2019-01-24 19:23:01,377 - INFO - Flexion de l'épaule de myRobot à un angle de 172 degrés
+2019-01-24 19:23:01,378 - DEBUG - Déplacement du Servo pour flexion de l'épaule (SHOULDER_flex) avec une longueur de pulse de 2250
+2019-01-24 19:23:01,379 - INFO - Déplacement du Servo pour flexion de l'épaule (SHOULDER_flex) à un angle de 172 (°)
+2019-01-24 19:23:01,380 - INFO - Flexion de l'épaule à 172 degrés 
+2019-01-24 19:23:01,384 - INFO - Flexion de l'épaule de myRobot à un angle de 180 degrés
+2019-01-24 19:23:01,385 - DEBUG - Déplacement du Servo pour flexion de l'épaule (SHOULDER_flex) avec une longueur de pulse de 2330
+2019-01-24 19:23:01,386 - INFO - Déplacement du Servo pour flexion de l'épaule (SHOULDER_flex) à un angle de 180 (°)
+2019-01-24 19:23:01,387 - INFO - Flexion de l'épaule à 180 degrés 
+2019-01-24 19:23:01,399 - INFO - Rotation de l'épaule avec le Servo pour rotation de l'épaule (SHOULDER_rotate) à un angle de 91 degrés
+2019-01-24 19:23:01,400 - DEBUG - Déplacement du Servo pour rotation de l'épaule (SHOULDER_rotate) avec une longueur de pulse de 1449
+2019-01-24 19:23:01,401 - INFO - Déplacement du Servo pour rotation de l'épaule (SHOULDER_rotate) à un angle de 91 (°)
+2019-01-24 19:23:01,402 - INFO - Rotation de l'épaule de 91
+2019-01-24 19:23:01,407 - INFO - Rotation de l'épaule avec le Servo pour rotation de l'épaule (SHOULDER_rotate) à un angle de 92 degrés
+2019-01-24 19:23:01,408 - DEBUG - Déplacement du Servo pour rotation de l'épaule (SHOULDER_rotate) avec une longueur de pulse de 1459
+2019-01-24 19:23:01,409 - INFO - Déplacement du Servo pour rotation de l'épaule (SHOULDER_rotate) à un angle de 92 (°)
+2019-01-24 19:23:01,410 - INFO - Rotation de l'épaule de 92
+2019-01-24 19:23:01,416 - INFO - Rotation de l'épaule avec le Servo pour rotation de l'épaule (SHOULDER_rotate) à un angle de 96 degrés
+2019-01-24 19:23:01,417 - DEBUG - Déplacement du Servo pour rotation de l'épaule (SHOULDER_rotate) avec une longueur de pulse de 1499
+2019-01-24 19:23:01,418 - INFO - Déplacement du Servo pour rotation de l'épaule (SHOULDER_rotate) à un angle de 96 (°)
+2019-01-24 19:23:01,418 - INFO - Rotation de l'épaule de 96
+2019-01-24 19:23:01,423 - INFO - Rotation de l'épaule avec le Servo pour rotation de l'épaule (SHOULDER_rotate) à un angle de 97 degrés
+2019-01-24 19:23:01,424 - DEBUG - Déplacement du Servo pour rotation de l'épaule (SHOULDER_rotate) avec une longueur de pulse de 1509
+2019-01-24 19:23:01,425 - INFO - Déplacement du Servo pour rotation de l'épaule (SHOULDER_rotate) à un angle de 97 (°)
+2019-01-24 19:23:01,426 - INFO - Rotation de l'épaule de 97
+2019-01-24 19:23:01,431 - INFO - Rotation de l'épaule avec le Servo pour rotation de l'épaule (SHOULDER_rotate) à un angle de 98 degrés
+2019-01-24 19:23:01,432 - DEBUG - Déplacement du Servo pour rotation de l'épaule (SHOULDER_rotate) avec une longueur de pulse de 1519
+2019-01-24 19:23:01,433 - INFO - Déplacement du Servo pour rotation de l'épaule (SHOULDER_rotate) à un angle de 98 (°)
+2019-01-24 19:23:01,434 - INFO - Rotation de l'épaule de 98
+2019-01-24 19:23:01,455 - INFO - Rotation de l'épaule avec le Servo pour rotation de l'épaule (SHOULDER_rotate) à un angle de 96 degrés
+2019-01-24 19:23:01,456 - DEBUG - Déplacement du Servo pour rotation de l'épaule (SHOULDER_rotate) avec une longueur de pulse de 1499
+2019-01-24 19:23:01,457 - INFO - Déplacement du Servo pour rotation de l'épaule (SHOULDER_rotate) à un angle de 96 (°)
+2019-01-24 19:23:01,458 - INFO - Rotation de l'épaule de 96
+2019-01-24 19:23:01,498 - INFO - Flexion de l'épaule de myRobot à un angle de 176 degrés
+2019-01-24 19:23:01,500 - DEBUG - Déplacement du Servo pour flexion de l'épaule (SHOULDER_flex) avec une longueur de pulse de 2290
+2019-01-24 19:23:01,501 - INFO - Déplacement du Servo pour flexion de l'épaule (SHOULDER_flex) à un angle de 176 (°)
+2019-01-24 19:23:01,503 - INFO - Flexion de l'épaule à 176 degrés 
+2019-01-24 19:23:01,508 - INFO - Rotation de l'épaule avec le Servo pour rotation de l'épaule (SHOULDER_rotate) à un angle de 95 degrés
+2019-01-24 19:23:01,510 - DEBUG - Déplacement du Servo pour rotation de l'épaule (SHOULDER_rotate) avec une longueur de pulse de 1489
+2019-01-24 19:23:01,511 - INFO - Déplacement du Servo pour rotation de l'épaule (SHOULDER_rotate) à un angle de 95 (°)
+2019-01-24 19:23:01,511 - INFO - Rotation de l'épaule de 95
+2019-01-24 19:23:01,517 - INFO - Flexion de l'épaule de myRobot à un angle de 172 degrés
+2019-01-24 19:23:01,518 - DEBUG - Déplacement du Servo pour flexion de l'épaule (SHOULDER_flex) avec une longueur de pulse de 2250
+2019-01-24 19:23:01,519 - INFO - Déplacement du Servo pour flexion de l'épaule (SHOULDER_flex) à un angle de 172 (°)
+2019-01-24 19:23:01,520 - INFO - Flexion de l'épaule à 172 degrés 
+2019-01-24 19:23:01,526 - INFO - Rotation de l'épaule avec le Servo pour rotation de l'épaule (SHOULDER_rotate) à un angle de 90 degrés
+2019-01-24 19:23:01,527 - DEBUG - Déplacement du Servo pour rotation de l'épaule (SHOULDER_rotate) avec une longueur de pulse de 1440
+2019-01-24 19:23:01,528 - INFO - Déplacement du Servo pour rotation de l'épaule (SHOULDER_rotate) à un angle de 90 (°)
+2019-01-24 19:23:01,529 - INFO - Rotation de l'épaule de 90
+2019-01-24 19:23:01,534 - INFO - Flexion de l'épaule de myRobot à un angle de 100 degrés
+2019-01-24 19:23:01,535 - DEBUG - Déplacement du Servo pour flexion de l'épaule (SHOULDER_flex) avec une longueur de pulse de 1538
+2019-01-24 19:23:01,536 - INFO - Déplacement du Servo pour flexion de l'épaule (SHOULDER_flex) à un angle de 100 (°)
+2019-01-24 19:23:01,537 - INFO - Flexion de l'épaule à 100 degrés 
+2019-01-24 19:23:01,542 - INFO - Flexion de l'épaule de myRobot à un angle de 95 degrés
+2019-01-24 19:23:01,543 - DEBUG - Déplacement du Servo pour flexion de l'épaule (SHOULDER_flex) avec une longueur de pulse de 1489
+2019-01-24 19:23:01,544 - INFO - Déplacement du Servo pour flexion de l'épaule (SHOULDER_flex) à un angle de 95 (°)
+2019-01-24 19:23:01,546 - INFO - Flexion de l'épaule à 95 degrés 
+2019-01-24 19:23:01,551 - INFO - Flexion de l'épaule de myRobot à un angle de 90 degrés
+2019-01-24 19:23:01,552 - DEBUG - Déplacement du Servo pour flexion de l'épaule (SHOULDER_flex) avec une longueur de pulse de 1440
+2019-01-24 19:23:01,553 - INFO - Déplacement du Servo pour flexion de l'épaule (SHOULDER_flex) à un angle de 90 (°)
+2019-01-24 19:23:01,554 - INFO - Flexion de l'épaule à 90 degrés 
+2019-01-24 19:23:01,559 - INFO - Flexion de l'épaule de myRobot à un angle de 90 degrés
+2019-01-24 19:23:01,561 - DEBUG - Déplacement du Servo pour flexion de l'épaule (SHOULDER_flex) avec une longueur de pulse de 1440
+2019-01-24 19:23:01,562 - INFO - Déplacement du Servo pour flexion de l'épaule (SHOULDER_flex) à un angle de 90 (°)
+2019-01-24 19:23:01,562 - INFO - Flexion de l'épaule à 90 degrés 
