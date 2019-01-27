@@ -1,5 +1,5 @@
 # Auteur    : Patrick Pinard
-# Date      : 27.12.2018
+# Date      : Janvier 2019
 # Objet     : gestion en angle ou pourcent du servo-moteur
 # Version   : 1
 # -*- coding: utf-8 -*-
@@ -10,7 +10,7 @@
 #   ~  = "alt/option" + n    
 #   \  = Alt + Maj + / 
   
-# import Adafruit_PCA_9685    (pas cencore connecté)
+# import Adafruit_PCA_9685    (si connecté)
 import logging
 
 class Servo:
