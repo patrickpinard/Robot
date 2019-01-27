@@ -14,7 +14,7 @@ import sys
 import time
 import inputs
 import logging
-import RobotV3 as Robot
+import Robot
 
 #ABS_Z      (rotation de l'épaule)
 #ABS_RZ     (flexion de l'épaule)
