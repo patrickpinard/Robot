@@ -1,6 +1,7 @@
-# Auteur  : Patrick Pinard - 2019
+# Auteur  : Patrick Pinard 
+# Date    : Janvier 2019
 # Objet   : Création d'un robot avec pince, main, coude et épaule depuis un fichier "config.ini"
-# Version : 1
+# Version : 0.8  (pas terminé)
 
 # -*- coding: utf-8 -*-
 
@@ -11,7 +12,7 @@
 #   \  = Alt + Maj + / 
   
 
-import ServoV3 as Servo
+import Servo
 import configparser
 import logging
 import sys
